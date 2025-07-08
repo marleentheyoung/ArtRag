@@ -22,9 +22,71 @@ This project is a starting point for building a retrieval-augmented generation (
 
 ```bash
 git clone https://github.com/marleentheyoung/ArtRag.git
-cd ArtRag```
+cd ArtRag
+```
 
-### 1. Clone the repository
+### 2. Create and activate a virtual environment (recommended)
 
-```python3 -m venv venv
-source venv/bin/activate```
+#### On macOS/Linux:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### On Windows (PowerShell):
+
+```bash
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
+#### On Windows (Command Prompt):
+
+```bash
+python -m venv venv
+venv\Scripts\activate.bat
+```
+
+### 3. Install the required Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running the App
+
+In the project directory, run the following command:
+
+```bash
+streamlit run app.py
+```
+
+Then open your browser at:  
+[http://localhost:8501](http://localhost:8501)
+
+---
+
+## 💬 Usage
+
+1. Use the sidebar to:
+   - **Load Sample Data** (basic artwork data)
+   - **Load Embedding Index** (planned feature)
+
+2. Ask a question about an artwork or artist in the input box.
+
+3. Results will be shown below (search functionality coming soon).
+
+---
+
+## 🚀 Planned Features
+
+- Add semantic search over artwork descriptions
+- Integrate with external APIs like Wikipedia or WikiArt
+- Display artwork images alongside descriptions
+- Save and reload custom embedding indexes
+
+---
+
