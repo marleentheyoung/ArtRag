@@ -3,12 +3,12 @@ import json
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from green_investment_rag import ArtRAG  # Import your main class
-from helpers import load_data, filter_results
+from art_rag import ArtRAG 
+from helpers import load_data
 
 # Page config
 st.set_page_config(
-    page_title="Green Investment Analyzer",
+    page_title="ArtRag",
     page_icon="🌱",
     layout="wide"
 )
@@ -20,15 +20,15 @@ if 'data_loaded' not in st.session_state:
     st.session_state.data_loaded = False
 
 def main():
-    st.title("🌱 Green Investment Analyzer")
-    st.subheader("Extract climate investment insights from earnings calls")
+    st.title("🌱 ArtRag!")
+    st.subheader("We answer your artsy questions")
     
     # Sidebar for data loading
     with st.sidebar:
         # Load prebuilt index
         if st.button("Load Prebuilt Index"):
             with st.spinner("Loading prebuilt index..."):
-                rag = GreenInvestmentRAG()
+                rag = ArtRAG()
                 rag.load_snippets('climate_snippets.json')
                 rag.load_index('climate_index.faiss')
                 st.session_state.rag_system = rag
@@ -52,7 +52,7 @@ def main():
         if st.button("Load Sample Data"):
             with st.spinner("Loading data and building index..."):
                 data = load_data()
-                rag = GreenInvestmentRAG()
+                rag = ArtRAG()
                 rag.load_earnings_data(data)
                 rag.build_embedding_index()
                 
