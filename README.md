@@ -22,4 +22,9 @@ This project is a starting point for building a retrieval-augmented generation (
 
 ```bash
 git clone https://github.com/marleentheyoung/ArtRag.git
-cd ArtRag
+cd ArtRag```
+
+### 1. Clone the repository
+
+```python3 -m venv venv
+source venv/bin/activate```
