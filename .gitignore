@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.envrc
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm or VSCode project settings
+.idea/
+.vscode/
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+
+# Environment variables and config
+*.env
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Test output
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit cache
+.streamlit/
+
+# JSON or other generated files
+*.json
+
+# Ignore any sample data files (optional, if they are generated)
+data/sample_*.json
