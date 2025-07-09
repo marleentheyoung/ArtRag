@@ -1,11 +1,11 @@
 import yaml
 from typing import List, Dict, Any
 import torch
-from rag.load_models import setup_logger
+from load_models import setup_logger
 
 
 class ResponseGenerator:
-    def __init__(self, config_path: str = "rag/config.yaml", tokenizer=None, model=None):
+    def __init__(self, config_path: str = "config.yaml", tokenizer=None, model=None):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
@@ -18,7 +18,11 @@ class ResponseGenerator:
         doc_type = doc.get('doc_type', 'document')
         
         if doc_type == 'artwork':
-            return f"[Artwork {index}] {doc['text']}"
+            picture_id = doc.get('picture_id')
+            if picture_id:
+                return f"[Artwork {index} - ID: {picture_id}] {doc['text']}"
+            else:
+                return f"[Artwork {index}] {doc['text']}"
         elif doc_type == 'artist':
             return f"[Artist {index}] {doc['text']}"
         else:
@@ -98,11 +102,16 @@ Question: {query}"""
         response = self.generate(query, retrieved_docs)
         
         type_counts = {}
+        artwork_count = 0
         for doc in retrieved_docs:
             doc_type = doc.get('doc_type', 'unknown')
             type_counts[doc_type] = type_counts.get(doc_type, 0) + 1
+            if doc_type == 'artwork':
+                artwork_count += 1
         
         citation_info = []
+        picture_ids = []
+        
         for i, doc in enumerate(retrieved_docs, 1):
             doc_type = doc.get('doc_type', 'unknown')
             score = doc.get('score', 0.0)
@@ -115,12 +124,17 @@ Question: {query}"""
                 'text_preview': doc['text'][:100] + "..." if len(doc['text']) > 100 else doc['text']
             }
             
+            # Add picture_id for artwork documents
+            if doc_type == 'artwork' and 'picture_id' in doc:
+                citation['picture_id'] = doc['picture_id']
+                picture_ids.append(doc['picture_id'])
+            
             if cluster_id is not None:
                 citation['cluster_id'] = cluster_id
             
             citation_info.append(citation)
         
-        return {
+        result = {
             'response': response,
             'citations': citation_info,
             'source_summary': {
@@ -128,3 +142,10 @@ Question: {query}"""
                 'type_breakdown': type_counts
             }
         }
+        
+        # Add picture_ids summary if any artworks were found
+        if picture_ids:
+            result['picture_ids'] = picture_ids
+            result['source_summary']['artwork_picture_ids'] = picture_ids
+        
+        return result
