@@ -1,0 +1,1002 @@
+n.id,n.firstname,n.lastname,n.birthyear,n.deathyear,n.birthplace,n.deathplace,n.sex,n.numCities,n.numCountries,n.numVenues,n.country,n.collective,n.ulan,n.wikidata
+1,William Bernard,Adeney,1878,1966,London,London,M,2,1,5,GB,null,500075501,Q4892888
+2,Peter,Alma,1886,1969,Medan,Amsterdam,M,null,null,null,NL,null,500116696,Q2318919
+3,Natan,Alt'man,1889,1970,Vinnitsa,Saint Petersburg,M,1,1,1,RU,null,500022846,Q1358816
+4,Cuno,Amiet,1868,1961,Solothurn,Seeberg,M,7,4,7,CH,null,500005153,Q566797
+5,Vassily,Kandinsky,1866,1944,Moscow,Neuilly-sur-Seine,M,12,8,13,RU,null,500021093,Q61064
+6,Kazimir,Malevich,1878,1935,Kiev,Saint Petersburg,M,1,1,1,RU,null,500004959,Q130777
+7,Piet,Mondrian,1872,1944,Amersfoort,New York,M,2,1,2,NL,null,500004972,Q151803
+8,Alexander,Archipenko,1887,1964,Kiev,New York,M,3,3,3,US,null,500022523,Q157578
+9,Hans,Arp,1886,1966,StrasburgBaselMnullnullnullFRnull500031000,null
+10,Lawrence,Atkinson,1873,1931,Manchester,Paris,M,null,null,null,GB,null,500002487,null
+11,Léon,Bakst,1866,1924,Hrodna,Paris,M,null,null,null,RU,null,500009524,null
+12,Hans,Arp,1886,1966,Strasburg,Basel,M,2,1,2,FR,null,500031000,Q153739
+13,Lawrence,Atkinson,1873,1931,Manchester,Paris,M,1,1,2,GB,null,500002487,Q4072108
+14,Léon,Bakst,1866,1924,Hrodna,Paris,M,6,5,4,RU,null,500009524,Q214666
+15,Giacomo,Balla,1871,1958,Turin,Rome,M,10,7,7,IT,null,500014876,Q368254
+16,Vladimir (double`,Baranoff-Rossiné,1888,1944,Kherson,Auschwitz,M,null,null,null,UA,null,500017903,Q573654
+17,Ernst,Barlach,1870,1938,Wedel,Rostock,M,1,1,1,DE,null,500013940,Q156890
+18,Varvara,Stepanova,1894,1958,Kaunas,Moscow,F,null,null,null,RU,null,500095268,Q374948
+19,Paul,Baum,1859,1932,Meissen,San Gimignano,M,4,1,5,DE,null,500032885,Q541671
+20,Willi,Baumeister,1889,1955,Stuttgart,Stuttgart,M,null,null,null,DE,null,500022627,Q707911
+21,Aubrey Vincent,Beardsley,1872,1898,Brighton,Menton,M,null,null,null,GB,null,500032068,Q272566
+22,Vladimir Georgievich,Bekhteev,1878,1971,null,null,M,null,null,null,RU,null,500017773,null
+23,Max,Beckmann,1884,1950,Leipzig,New York,M,5,3,5,DE,null,500024106,Q164683
+24,Vanessa,Bell,1879,1961,Kensington,West Sussex,F,2,2,4,GB,null,500008308,Q255294
+25,George Wesley,Bellows,1882,1925,Columbus Ohio,New York,M,1,1,1,US,null,500003261,Q167132
+26,Vincenc,Beneš,1883,1979,Lišice,Prague,M,1,1,1,CZ,null,500026383,Q2526443
+27,Alexandre,Benois,1870,1960,Saint Petersburg,Paris,M,3,3,3,RU,null,500009577,Q319861
+28,Róbert,Berény,1887,1953,Budapest,Budapest,M,1,1,2,HU,null,500010168,Q718722
+29,Hendrik Petrus,Berlage,1856,1934,Amsterdam,Hague The,M,null,null,null,NL,null,500010705,Q318816
+30,Émile,Bernard,1868,1941,Lille,Paris,M,5,5,8,FR,null,500012925,Q264193
+31,Robert Polhill,Bevan,1865,1925,Hove,London,M,2,1,5,GB,null,500002362,Q2363100
+32,Albert,Bloch,1882,1961,St. Louis,Lawrence Kansas,M,3,2,4,US,null,500023299,Q321462
+33,Umberto,Boccioni,1882,1916,Reggio Calabria,Verona,M,9,6,11,IT,null,500012624,Q152797
+34,Arnold,Böcklin,1827,1901,Basel,San Domenico di Fièsole,M,4,2,5,CH,null,500016466,Q123071
+35,Oleksandr,Bohomazov,1880,1930,Yampol,Kiev,M,null,null,null,UA,null,500023043,Q1984317
+36,David,Bomberg,1890,1957,Birmingham,London,M,2,1,6,GB,null,500014864,Q734355
+37,Pierre,Bonnard,1867,1947,Fontenay-aux-Roses,Le Cannet,M,14,11,19,FR,null,500115555,Q26408
+38,Viktor,Borisov-Musatov,1870,1905,Saratov,Tarusa,M,5,4,2,RU,null,500009209,Q1095289
+39,Emile-Antoine,Bourdelle,1861,1929,Montauban,Le Vésinet,M,1,1,1,FR,null,500028923,Q314350
+40,Constantin,Brancusi,1876,1957,Hobița,Paris,M,null,null,null,RO,null,500016157,Q153048
+41,Georges,Braque,1882,1963,Argenteuil,Paris,M,11,8,11,FR,null,500025200,Q153793
+42,Horace,Brodzky,1885,1969,Melbourne,London,M,1,1,3,AU,null,500025308,Q1627848
+43,Petr Ignat'evič,Bromirskij,1884,1919,null,null,M,null,null,null,RU,null,500102239,null
+44,Patrick Henry,Bruce,1881,1936,Campbell,New York,M,3,3,3,US,null,500007545,Q1392667
+45,Hans,Brühlmann,1878,1911,Amriswill,Stuttgart,M,2,2,2,CH,null,500005950,Q1578870
+46,Jean,Brusselmans,1884,1953,Brussels,Dilbeek,M,null,null,null,BE,null,500028851,Q2909779
+47,Max,Buri,1868,1915,Burgdorf,Interlaken,M,6,4,6,CH,null,500006223,Q177330
+48,David,Burlyuk,1882,1967,Kharkov,Southampton,M,6,4,4,UA,null,500026962,Q610532
+49,Vladimir,Burlyuk,1887,1917,Chernyanka,Greece,M,6,5,3,UA,null,500120075,Q1364377
+50,Edward,Burne-Jones,1833,1898,Birmingham,London,M,null,null,null,GB,null,500001381,Q216406
+51,Charles,Camoin,1879,1965,Marseilles,Paris,M,3,3,6,FR,null,500009979,Q968285
+52,Heinrich,Campendonk,1889,1957,Krefeld,Amsterdam,M,5,2,5,DE,null,500009451,Q213685
+53,Josef,Čapek,1887,1945,Hronov,Lager Bergen Belsen,M,null,null,null,CZ,null,500115342,Q454568
+54,Arthur Beecher,Carles,1882,1952,Philadelphia,Philadelphia,M,null,null,null,US,null,500014441,Q4797967
+55,Carlo,Carrà,1881,1966,Alessandria,Milan,M,9,6,10,IT,null,500008934,Q168496
+56,Eugène,Carrière,1849,1906,Gournay-sur-Marne,Paris,M,4,4,9,FR,null,500007012,Q461464
+57,Felice,Casorati,1883,1963,Novara,Turin,M,null,null,null,IT,null,500021131,Q574616
+58,Paul,Cézanne,1839,1906,Aix-en-Provence,Aix-en-Provence,M,8,6,19,FR,null,500004793,Q35548
+59,Auguste-Elysée,Chabaud,1882,1955,Nîmes,Graveson,M,4,3,6,FR,null,500020287,Q766261
+60,Marc,Chagall,1887,1985,Vitebsk,Saint-Paul,M,1,1,1,BY,null,500115354,Q93284
+61,Serge,Charchoune,1888,1975,Buguruslan,Villeneuve-Saint-Georges,M,null,null,null,RU,null,500007384,null
+62,Vasily,Chekrygin,1897,1922,Zhizdra,Mamontovka (Moscow region),M,null,null,null,RU,null,500120986,Q4508331
+63,M. K.,Čiurlionis,1875,1911,Lithuania,Marki,M,null,null,null,LT,null,500121264,Q297137
+64,Charles,Conder,1868,1909,London,Virginia Water,M,1,1,4,GB,null,500001048,Q1284465
+65,Lovis,Corinth,1858,1925,Gvardeysk,Zandvoort,M,7,4,7,DE,null,500115384,Q157610
+66,Gustave,Courbet,1819,1877,Ornans,La Tour-de-Peilz,M,6,5,14,FR,null,500010927,Q34618
+67,Walter,Crane,1845,1915,Liverpool,Horsham,M,3,3,3,GB,null,500014587,Q660917
+68,Henri Edmond,Cross,1856,1910,Douai,Saint-Clair Var,M,4,4,7,FR,null,500014010,Q555224
+69,Carl Otto,Czeschka,1878,1960,Vienna,Hamburg,M,null,null,null,AT,null,500007692,Q1039975
+70,Dezső,Czigány,1883,1937,Budapest,Budapest,M,1,1,2,HU,null,500091095,Q683135
+71,Béla,Czóbel,1883,1975,Budapest,Budapest,M,1,1,2,HU,null,500026459,Q900177
+72,Hippolyte,Daeye,1873,1952,Ghent,Ghent,M,1,1,1,BE,null,500041380,Q1489046
+73,Arthur Bowen,Davies,1862,1928,Utica New York,Florence,M,3,2,3,US,null,500013464,Q708502
+74,Stuart,Davis,1892,1964,Philadelphia,New York,M,null,null,null,US,null,500115507,Q704588
+75,Per,Deberitz,1880,1945,Drøbak,Christiania (Oslo),M,null,null,null,NO,null,500071901,Q5619061
+76,Giorgio de,Chirico,1888,1978,Vólos,Rome,M,1,1,1,IT,null,500032635,Q156622
+77,Edgar,Degas,1834,1917,Paris,Paris,M,7,6,14,FR,null,500115194,Q46373
+78,Henry de,Groux,1867,1930,Brussels,Marseilles,M,2,2,3,BE,null,500000376,Q450114
+79,Robert,Delaunay,1885,1941,Paris,Montpellier,M,4,4,6,FR,null,500023463,Q33978
+80,Sonia,Delaunay,1885,1979,Gradizhsk,Paris,F,1,1,1,FR,null,500115510,Q232972
+81,Jean,Delville,1867,1953,Louvain,Forest,M,2,2,2,BE,null,500027312,Q1395469
+82,Cristophe Karel Henri de,Nerée tot Babberich,1880,1909,Zevenaar,Todtmoos,M,null,null,null,NL,null,500002505,Q2938145
+83,Maurice,Denis,1870,1943,Granville Manche,Saint-Germain-en-Laye,M,12,11,16,FR,null,500032673,Q440369
+84,André,Derain,1880,1954,Chatou,Garches,M,6,4,10,FR,null,500004535,Q156272
+85,Gustave de,Smet,1877,1943,Ghent,Deurle,M,1,1,1,BE,null,500013123,Q981212
+86,Charles,Despiau,1874,1946,Mont-de-Marsan,Paris,M,null,null,null,FR,null,500115511,Q82291
+87,Georges-Olivier,Desvallières,1861,1950,Paris,Paris,M,4,3,8,FR,null,500004489,Q3101526
+88,Maurice de,Vlaminck,1876,1958,Paris,Rueil-la-Gadelière,M,10,7,9,FR,null,500008582,Q241098
+89,Karl Edvard,Diriks,1855,1930,Christiania (Oslo),Christiania (Oslo),M,2,2,4,NO,null,500047891,Q3193383
+90,Mstislav,Dobuzhinsky,1875,1957,Velikiy Novgorod,New York,M,4,4,4,RU,null,500120586,Q972018
+91,Henri,Doucet,1883,1915,Pleumartin,Hooge,M,6,5,4,FR,null,500046918,Q1605814
+92,Arthur Garfield,Dove,1880,1946,Canandaigua,Long Island,M,null,null,null,US,null,500018046,Q709461
+93,Malcolm,Drummond,1880,1945,Boyn Hill,Moulsford,M,2,1,5,GB,null,500016786,Q4167670
+94,Guy Pène,Du Bois,1884,1958,Brooklyn,Boston,M,null,null,null,US,null,500120494,Q5622550
+95,Marcel,Duchamp,1887,1968,Blainville-Crevon,Neuilly-sur-Seine,M,3,2,4,FR,null,500115393,Q5912
+96,Raymond,Duchamp-Villon,1876,1918,Damville,Cannes,M,1,1,1,FR,null,500029284,Q705282
+97,Raoul,Dufy,1877,1953,Le Havre,Forcalquier,M,5,4,9,FR,null,500024166,Q45205
+98,André,Dunoyer de Segonzac,1884,1974,Boussy-Saint-Antoine,Paris,M,3,2,6,FR,null,500024152,Q518406
+99,Leander,Engström,1886,1927,Ytterhogdal,Stockholm,M,1,1,1,SE,null,500104590,Q5713109
+100,James,Ensor,1860,1949,Ostend,Ostend,M,3,3,3,BE,null,500032046,Q158840
+101,Jacob,Epstein,1880,1959,New York,London,M,2,1,2,GB,null,500032047,Q354779
+102,Adolf,Erbslöh,1881,1947,New York,Icking,M,6,2,8,DE,null,500003079,Q361407
+103,Thorvald,Erichsen,1868,1939,Trondheim,Christiania (Oslo),M,2,2,2,NO,null,500082102,Q1027392
+104,Max,Ernst,1891,1976,Brühl (Rhineland),Paris,M,3,1,3,DE,null,500115729,Q154842
+105,Frederick,Etchells,1886,1973,Newcastle upon Tyne,Folkestone,M,3,2,6,GB,null,500115473,Q5497733
+106,Henri,Evenepoel,1872,1899,Nice,Paris,M,1,1,1,BE,null,500004458,Q2980574
+107,Aleksandra Aleksandrovna,Exster,1882,1949,Białystok,Fontenay-aux-Roses,F,7,6,5,RU,null,500024229,Q242121
+108,Anton,Faistauer,1887,1930,Sankt Martin bei Lofer,Vienna,M,2,2,3,AT,null,500025360,Q589241
+109,Xenia,Boguslawskaja,1892,1971,Saint Petersburg,Paris,F,null,null,null,null,null,NULL,Q4089882
+110,Marie,Vassilieff,1884,1957,Smolensk,Nogent-sur-Marne,F,null,null,null,RU,null,500005422,Q462767
+111,Vasiliǐ,Kamenskiǐ,1884,1961,Perm,Moscow,M,null,null,null,RU,null,500127838,Q2629336
+112,Anna Michajlovna,Kirillova,null,null,null,null,F,1,1,1,RU,null,NULL,null
+113,Ivan,Klyun,1873,1943,Bolshie Gorki,Moscow,M,null,null,null,RU,null,500001016,Q1988310
+114,Vera Efimovna,Pestel',1888,1952,Moscow,Moscow,F,null,null,null,RU,null,500073670,Q15079457
+115,Lyubov',Popova,1889,1924,Ivanovskoye,Moscow,F,null,null,null,RU,null,500002046,Q259594
+116,Jean,Pougny,1892,1956,Repino,Paris,M,null,null,null,RU,null,500007558,Q705062
+117,Ol'ga,Rozanova,1886,1918,Melenki,Moscow,F,2,2,2,RU,null,500003298,Q270460
+118,Vladimir,Tatlin,1885,1953,Kharkov,Novodevichye,M,1,1,1,UA,null,500021874,Q310320
+119,Nadezhda,Udal'tsova,1886,1961,Orel,Moscow,F,null,null,null,RU,null,500013783,Q467795
+120,Mikhail Ivanovich,Menkov,1885,1926,Vilnius,Yalta,M,null,null,null,RU,null,500163343,Q15072345
+121,Robert,Fa'lk,1886,1958,Moscow,Moscow,M,2,2,2,RU,null,500023523,Q662323
+122,Bedřich,Feigl,1884,1965,Prague,London,M,null,null,null,CZ,null,500129587,Q4879485
+123,Lyonel,Feininger,1871,1956,New York,New York,M,1,1,1,US,null,500115308,Q158255
+124,Emil,Filla,1882,1953,Chropyně,Prague,M,1,1,1,CZ,null,500030233,Q687335
+125,Pavel,Filonov,1883,1941,Moscow,Saint Petersburg,M,null,null,null,RU,null,500016882,Q466187
+126,Bernhard Dorotheus,Folkestad,1879,1933,London,Christiania (Oslo),M,2,2,2,NO,null,500108632,Q2596766
+127,Artur,Fonvizin,1883,1973,Riga,Moscow,M,1,1,1,RU,null,500098492,Q4491633
+128,Othon,Friesz,1879,1949,Le Havre,Paris,M,11,8,14,FR,null,500031339,Q708482
+129,Roger,Fry,1866,1934,London,London,M,2,2,5,GB,null,500005106,Q547470
+130,Akseli,Gallen-Kallela,1865,1931,Pori,Stockholm,M,null,null,null,FI,null,500015305,Q170068
+131,Henri,Gaudier-Brzeska,1891,1915,Saint-Jean-de-Braye,Neuville-Saint-Vaast,M,null,null,null,FR,null,500115741,Q926308
+132,Paul,Gauguin,1848,1903,Paris,Atuona,M,10,8,21,FR,null,500011421,Q37693
+133,Aleksandr Fedorovich,Gaush,1873,1947,Saint Petersburg,Simferopol,M,4,3,2,RU,null,500141019,null
+134,Mark,Gertler,1891,1939,Spitalfields,London,M,1,1,3,GB,null,500018389,Q359506
+135,Leo,Gestel,1881,1941,Woerden,Hilversum,M,1,1,1,NL,null,500007182,Q597999
+136,Augusto,Giacometti,1877,1947,Stampa,Zurich,M,null,null,null,CH,null,500021952,Q671236
+137,Giovanni,Giacometti,1868,1933,Stampa,Glion,M,5,4,5,CH,null,500021953,Q689411
+138,Harold,Gilman,1876,1919,Rode,London,M,2,1,6,GB,null,500027829,Q176368
+139,Charles,Ginner,1878,1952,Cannes,London,M,3,2,7,GB,null,500021853,Q716453
+140,Pierre Paul,Girieud,1876,1948,Paris,Paris,M,10,7,12,FR,null,500029188,Q2093494
+141,William James,Glackens,1870,1938,Philadelphia,Westport Connecticut,M,2,1,2,US,null,500018884,Q1339934
+142,Albert,Gleizes,1881,1953,Paris,Avignon,M,9,7,9,FR,null,500001380,Q711903
+143,Natalia,Goncharova,1881,1962,Tula,Paris,F,7,6,4,RU,null, Gontscharowa Natalja,Q232391
+144,Spencer,Gore,1878,1914,Epsom,Surrey,M,3,2,8,GB,null,500004711,Q1904003
+145,Duncan,Grant,1885,1978,Aviemore,Aldermaston,M,2,2,5,GB,null,500022746,Q766166
+146,Juan,Gris,1887,1927,Madrid,Boulogne-Billancourt,M,5,3,5,ES,null,500015362,Q151152
+147,Alexis,Gritchenko,1883,1977,Krolevets,Vence,M,null,null,null,RU,null,500155665,Q3294595
+148,Marcel,Gromaire,1892,1971,Noyelles-sur-Sambre,Paris,M,null,null,null,FR,null,500009137,Q690155
+149,Isaac,Grünewald,1888,1946,Stockholm,Norway,M,1,1,1,SE,null,500078890,Q731125
+150,Charles-François-Prosper,Guérin,1875,1939,Sens,Paris,M,8,7,9,FR,null,500003325,Q1063382
+151,Yelena,Guro,1877,1913,Saint Petersburg,Uusikirkko,F,null,null,null,RU,null,500063165,Q442658
+152,Otto,Gutfreund,1889,1927,Dvůr Králové,Prague,M,null,null,null,CZ,null,500002163,Q1381971
+153,Hermann,Haller,1880,1950,Bern,Zurich,M,null,null,null,CH,null,500000874,Q680826
+154,Marsden,Hartley,1877,1943,Lewiston Maine,Ellsworth Maine,M,null,null,null,US,null,500012910,Q553259
+155,Ferenc,Hatvany,1881,1958,Budapest,Lausanne,M,3,3,4,HU,null,500093866,Q324935
+156,Henri,Hayden,1883,1970,Warsaw,Paris,M,1,1,1,PL,null,500006216,Q1607477
+157,Erich,Heckel,1883,1970,Döbeln,Radolfzell,M,4,2,5,DE,null,500032971,Q156700
+158,Jean,Heiberg,1884,1976,Christiania (Oslo),Christiania (Oslo),M,null,null,null,NO,null,500110999,Q1781129
+159,Walter,Helbig,1878,1968,Falkenstein Saxony,Ascona,M,4,3,4,DE,null,500047836,Q1482415
+160,Robert,Henri,1865,1929,Cincinnati,New York,M,3,2,3,US,null,500005486,Q724860
+161,Auguste,Herbin,1882,1960,Quiévy,Paris,M,7,6,10,FR,null,500023239,Q706359
+162,Jules,Hervé,1887,1981,Langres,Langres,M,null,null,null,FR,null,500011334,Q3188375
+163,Sigrid,Hjertén,1885,1948,Sundsvall,Stockholm,F,null,null,null,SE,null,500017513,Q272405
+164,Ferdinand,Hodler,1853,1918,Bern,Geneva,M,8,4,10,CH,null,500027184,Q214564
+165,Adolf,Hölzel,1853,1934,Olomouc,Stuttgart,M,4,2,4,DE,null,500023070,Q362498
+166,Karl,Hofer,1878,1955,Karlsruhe,Berlin,M,4,1,5,DE,null,500015138,Q62249
+167,Edward,Hopper,1882,1967,Nyack,New York,M,null,null,null,US,null,500031212,Q203401
+168,Max,Horb,1882,1907,Mladá Boleslav,Prague,M,null,null,null,CZ,null,NULL,Q12036159
+169,Hermann,Huber,1888,1967,Zurich,Hirzel,M,3,2,3,CH,null,500017047,Q1611548
+170,James Dickson,Innes,1887,1914,Llanelli,Swanley,M,1,1,3,GB,null,500006002,Q3404191
+171,Isaac,Israëls,1865,1934,Amsterdam,Hague The,M,2,1,2,NL,null,500000109,Q979534
+172,Richard,Janthur,1883,1956,Zerbst,Berlin,M,null,null,null,DE,null,500148179,Q16856296
+173,Alexei,Jawlensky,1864,1941,Torzhok,Wiesbaden,M,9,6,9,RU,null,500017981,Q156426
+174,null,Le Corbusier,1887,1965,La Chaux-de-Fonds,Roquebrune,M,null,null,null,CH,null,500027041,Q4724
+175,Augustus,John,1878,1961,Tenby,Fordingbridge,M,2,2,4,GB,null,500018892,Q562540
+176,Gwen,John,1876,1939,Haverfordwest,Dieppe,F,null,null,null,GB,null,500009240,Q274339
+177,Einar,Jolin,1890,1976,Stockholm,Stockholm,M,null,null,null,SE,null,500014093,Q5889945
+178,Ernst,Josephson,1851,1906,Stockholm,Stockholm,M,null,null,null,SE,null,500004739,Q709853
+179,Alexander,Kanoldt,1881,1939,Karlsruhe,Berlin,M,4,1,6,DE,null,500027904,Q62544
+180,Arne,Kavli,1878,1970,Bergen North Holland,Christiania (Oslo),M,1,1,1,NO,null,500070114,Q4794603
+181,Károly,Kernstok,1873,1940,Budapest,Budapest,M,1,1,2,HU,null,500000556,Q556067
+182,Fernand,Khnopff,1858,1921,Dendermonde,Brussels,M,4,4,4,BE,null,500003023,Q559559
+183,Ernst Ludwig,Kirchner,1880,1938,Aschaffenburg,Frauenkirch,M,3,1,5,DE,null,500027704,Q229272
+184,Moïse,Kisling,1891,1953,Cracow,Sanary-sur-Mer,M,5,4,5,FR,null,500027290,Q281812
+185,Paul,Klee,1879,1940,Münchenbuchsee,Muralto,M,2,1,3,CH,null,500010493,Q44007
+186,Cesar,Klein,1876,1954,Hamburg,Pansdorf,M,3,3,4,DE,null,500029590,Q213848
+187,Gustav,Klimt,1862,1918,Vienna,Vienna,M,3,3,3,AT,null,500030531,Q34661
+188,Max,Klinger,1857,1920,Leipzig,Großjena,M,2,1,3,DE,null,500023867,Q44252
+189,Moissey,Kogan,1879,1943,Orhei,Auschwitz,M,2,1,3,RU,null,500030135,Q200644
+190,Oskar,Kokoschka,1886,1980,Pöchlarn,Montreux,M,5,3,6,AT,null,500024536,Q154260
+191,Georg,Kolbe,1877,1947,Waldheim,Berlin,M,3,1,3,DE,null,500004921,Q561283
+192,Käthe,Kollwitz,1867,1945,Königsberg,Moritzburg,F,4,3,5,DE,null,500016751,Q142472
+193,Pyotr,Konchalovsky,1876,1956,Slavyansk,Moscow,M,1,1,1,RU,null,500021857,Q2626131
+194,Nikolay,Krymov,1884,1958,Moscow,Moscow,M,5,4,3,RU,null,500124424,Q4242904
+195,Per,Krohg,1889,1965,Åsgårdstrand,Christiania (Oslo),M,1,1,1,NO,null,500009787,Q1384103
+196,Alfred,Kubin,1877,1959,Litoměřice,Wernstein am Inn,M,8,6,6,AT,null,500025783,Q558054
+197,Othone,Coubine,1883,1969,Boskovice,Marseilles,M,null,null,null,CZ,null,500012963,Q1342949
+198,Bohumil,Kubišta,1884,1918,Vlčkovice,Prague,M,2,2,2,CZ,null,500008823,Q698151
+199,Walt,Kuhn,1880,1949,New York,New York,M,1,1,1,US,null,500012372,Q118798
+200,Reinhold,Kündig,1888,1984,Uster,Thalwil,M,null,null,null,CH,null,500081852,Q28367053
+201,František,Kupka,1871,1957,Opočno,Puteaux,M,1,1,1,CZ,null,500006023,Q167414
+202,Aleksandr,Kuprin,1880,1960,Borisoglebsk,Moscow,M,1,1,1,RU,null,500079153,Q4247553
+203,Pavel,Kuznetsov,1878,1968,Saratov,Moscow,M,1,1,1,RU,null,500015864,Q4245043
+204,Gaston,Lachaise,1882,1935,Paris,New York,M,null,null,null,FR,null,500001766,Q1495586
+205,Eugène,Laermans,1864,1940,Brussels,Brussels,M,3,3,3,BE,null,500006075,Q598897
+206,Roger de,La Fresnaye,1885,1925,Le Mans,Grasse,M,4,2,7,FR,null,500013022,Q718882
+207,Henry,Lamb,1883,1960,Adelaide,London,M,1,1,4,GB,null,500015467,Q3132896
+208,Pierre,Laprade,1875,1931,Narbonne,Fontenay-aux-Roses,M,9,8,11,FR,null,500007077,Q3385783
+209,Mikhail,Larionov,1881,1964,Tiraspol,Fontenay-aux-Roses,M,7,5,4,RU,null,500012150,Q38785
+210,Marie,Laurencin,1885,1956,Paris,Paris,F,9,7,8,FR,null,500011424,Q233088
+211,Henri,Laurens,1885,1954,Paris,Paris,M,null,null,null,FR,null,500010480,Q738892
+212,Ernest,Lawson,1873,1939,null,null,M,null,null,null,US,null,500026852,null
+213,Ernest,Lawson,1873,1939,Halifax,Miami Beach,M,2,1,3,US,null,500026852,Q1185478
+214,Mikhail Vasilevich,Le-Dantyu,1891,1917,Tver',null,M,null,null,null,RU,null,500152591,null
+215,Henri Victor Gabriel,Le Fauconnier,1881,1946,Hesdin,Paris,M,10,7,9,FR,null,500015082,Q1368018
+216,Fernand,Léger,1881,1955,Argentan,Gif-sur-Yvette,M,4,3,6,FR,null,500027374,Q157183
+217,Wilhelm,Lehmbruck,1881,1919,Duisburg,Berlin,M,3,2,3,DE,null,500019056,Q551282
+218,Wilhelm,Leibl,1844,1900,Cologne,Würzburg,M,6,3,7,DE,null,500016534,Q704661
+219,Georges,Lemmen,1865,1916,Brussels,Brussels,M,1,1,2,BE,null,500025073,Q1963612
+220,Jean Julien,Lemordant,1878,1968,Saint-Malo,Paris,M,2,2,2,FR,null,500008941,Q3166574
+221,Aristarkh,Lentulov,1882,1943,Nizhny Lomov,Moscow,M,4,3,2,RU,null,500028210,Q664360
+222,Rudolf,Levy,1875,1943,Stettin,null,M,4,2,5,DE,null,500004600,Q215550
+223,Wyndham,Lewis,1882,1957,Amherst,London,M,3,2,7,GB,null,500025826,Q780102
+224,André,Lhote,1885,1962,Bordeaux,Paris,M,6,4,11,FR,null,500003416,Q463065
+225,Max,Liebermann,1847,1935,Berlin,Berlin,M,9,6,11,DE,null,500115690,Q158062
+226,Jacques,Lipchitz,1891,1973,Lithuania,Capri,M,null,null,null,FR,null,500015743,Q380426
+227,Bertold,Löffler,1874,1960,Liberec,Vienna,M,1,1,1,AT,null,500111705,Q88602
+228,Georgy,Lukomsky,1884,1952,Kaluga,Nice,M,5,4,3,RU,null,500321742,Q4269095
+229,George Benjamin,Luks,1867,1933,Williamsport,New York,M,2,1,2,US,null,500007311,Q337733
+230,Henrik Louis,Lund,1879,1935,Bergen,Christiania (Oslo),M,3,3,3,NO,null,500006963,Q4269428
+231,Oscar,Lüthy,1882,1945,Bern,Zurich,M,1,1,1,CH,null,500101783,Q557242
+232,Stanton,Macdonald-Wright,1890,1973,Charlottesville,Pacific Palisades,M,1,1,1,US,null,500007154,Q2348151
+233,August,Macke,1887,1914,Meschede,Perthes-lès-Hurlus,M,4,1,5,DE,null,500007945,Q33981
+234,Helmuth,Macke,1891,1936,Krefeld,Hemmenhofen,M,2,1,2,DE,null,500073122,Q1431988
+235,Aristide,Maillol,1861,1944,Banyuls-sur-Mer,Perpignan,M,7,6,9,FR,null,500001596,Q153920
+236,Edouard,Manet,1832,1883,Paris,Paris,M,8,6,17,FR,null,500010363,Q40599
+237,Henri Charles,Manguin,1874,1949,Paris,Saint-Tropez,M,10,9,10,FR,null,500010364,Q1605934
+238,null,Manolo,1872,1945,Barcelona,Caldas de Montbuy,M,1,1,1,ES,null,500036426,Q1385979
+239,Franz,Marc,1880,1916,Munich,Verdun-sur-Garonne,M,5,3,6,DE,null,500010681,Q44054
+240,Jean,Marchand,1882,1941,Paris,Paris,M,4,3,9,FR,null,500025544,Q6171106
+241,Gerhard,Marcks,1889,1981,Berlin,Cologne,M,null,null,null,DE,null,500029431,Q61507
+242,Louis,Marcoussis,1883,1941,Warsaw,Cusset,M,2,2,2,FR,null,500022494,Q1346343
+243,Ödön,Márffy,1878,1959,Budapest,Budapest,M,1,1,2,HU,null,500009282,Q111827
+244,John,Marin,1872,1953,Rutherford,Addison Maine,M,1,1,1,US,null,500115368,Q666171
+245,Albert,Marquet,1875,1947,Bordeaux,Paris,M,8,7,10,FR,null,500022386,Q267858
+246,Alberto,Martini,1876,1954,Oderzo,Milan,M,null,null,null,IT,null,500017250,Q2831794
+247,Il'ya,Mashkov,1881,1944,Mikhailovskaya-on-Don,Moscow,M,4,3,1,RU,null,500031575,Q2704611
+248,Henri,Matisse,1869,1954,Le Cateau-Cambrésis,Nice,M,12,10,17,FR,null,500017300,Q5589
+249,Aleksandr,Matveyev,1878,1960,Saratov,Moscow,M,null,null,null,RU,null,500103298,Q4284502
+250,Mikhail,Matyushin,1861,1934,Nizhniy Novgorod,Leningradskaya Oblast',M,4,3,1,RU,null,500127837,Q787155
+251,Alfred Henry,Maurer,1868,1932,New York,New York,M,3,2,3,US,null,500025666,Q1387251
+252,Ludwig,Meidner,1884,1966,Bernstadt,Darmstadt,M,2,2,2,DE,null,500016886,Q213727
+253,Xavier,Mellery,1845,1921,Laken,Brussels,M,null,null,null,BE,null,500015450,Q1041605
+254,Moritz,Melzer,1877,1966,Bohemia,Berlin,M,4,3,8,DE,null,500064261,Q1948185
+255,Jean,Metzinger,1883,1956,Nantes,Paris,M,10,8,12,FR,null,500001079,Q313096
+256,Constantin,Meunier,1831,1905,Etterbeek,Ixelles,M,3,3,4,BE,null,500000662,Q552440
+257,Nikolay,Milioti,1874,1962,Moscow,Paris,M,2,2,2,RU,null,500057187,Q14216837
+258,Vasily,Milioti,1875,1943,Moscow,Moscow,M,null,null,null,RU,null,500003928,null
+259,Kenneth Hayes,Miller,1876,1952,Oneida,New York,M,null,null,null,US,null,500025218,Q3195174
+260,Carl,Milles,1875,1955,Lagan,Lidingö,M,null,null,null,SE,null,500021157,Q48548
+261,George,Minne,1866,1941,Ghent,Sint-Martens-Latem,M,2,2,2,BE,null,500029293,Q559281
+262,Piotr,Miturich,1887,1956,Saint Petersburg,Moscow,M,null,null,null,RU,null,500002681,Q4296899
+263,Paula,Modersohn-Becker,1876,1907,Dresden,Worpswede,F,1,1,1,DE,null,500422180,Q234370
+264,Amedeo,Modigliani,1884,1920,Livorno,Paris,M,null,null,null,IT,null,500026509,Q120993
+265,Aleksandr Pavlovič,Mogilevskij,1885,1980,Mariupol',Moscow,M,2,1,3,RU,null,Russian graphic artist illustrator and painter 1885-1980,Q18740184
+266,Louis René,Moilliet,1880,1962,Bern,Vevey,M,null,null,null,CH,null,500014426,Q690446
+267,Oskar,Moll,1875,1947,Brzeg,Berlin,M,3,1,3,DE,null,500008246,Q453349
+268,Claude,Monet,1840,1926,Paris,Giverny,M,10,8,19,FR,null,500019484,Q296
+269,Adolphe,Monticelli,1824,1886,Marseilles,Marseilles,M,4,3,8,FR,null,500000984,Q1152965
+270,Giorgio,Morandi,1890,1964,Bologna,Bologna,M,1,1,1,IT,null,500009413,Q309618
+271,Gustave,Moreau,1826,1898,Paris,Paris,M,2,2,3,FR,null,500115776,Q203828
+272,Wilhelm,Morgner,1891,1917,Soest,Langemark,M,3,2,4,DE,null,500005254,Q69538
+273,Alexsey,Morgunov,1884,1935,Moscow,Moscow,M,null,null,null,RU,null,500103526,Q17350355
+274,Koloman,Moser,1868,1918,Vienna,Vienna,M,2,2,2,AT,null,500030689,Q45055
+275,Otto,Mueller,1874,1930,Lubawka,Oborniki Śląskie,M,3,1,4,DE,null,500125010,Q317041
+276,Edvard,Munch,1863,1944,Løten,Christiania (Oslo),M,11,6,15,NO,null,500032949,Q41406
+277,Gabriele,Münter,1877,1962,Berlin,Murnau,F,9,6,8,DE,null,500004398,Q463978
+278,Elie,Nadelman,1882,1946,Warsaw,New York,M,6,5,7,PL,null,500032388,Q1288595
+279,John Northcote,Nash,1893,1977,London,Colchester,M,2,1,4,GB,null,500020212,Q4328435
+280,Paul,Nash,1889,1946,London,Dorset,M,2,1,4,GB,null,500032079,Q727643
+281,Heinrich,Nauen,1880,1941,Krefeld,Kalkar,M,5,1,5,DE,null,500004670,Q461828
+282,Christopher,Nevinson,1889,1946,London,London,M,2,1,5,GB,null,500031355,Q185850
+283,Jean,Niestlé,1884,1942,Neuchatel,Antony,M,1,1,1,CH,null,NULL,Q1648422
+284,Emil,Nolde,1867,1956,Burkal,Seebüll,M,6,2,7,DE,null,500003109,Q152788
+285,Isidre,Nonell,1873,1911,Barcelona,Barcelona,M,null,null,null,ES,null,500115716,Q1393742
+286,Willi,Nowak,1886,1977,Mníšek pod Brdy,Prague,M,2,1,2,CZ,null,500202718,Q4321849
+287,Hermann,Obrist,1862,1927,Kilchberg,Munich,M,null,null,null,CH,null,500029519,Q332579
+288,Walter,Ophey,1882,1930,Eupen,Dusseldorf,M,3,2,3,DE,null,500018690,Q2545701
+289,Dezső,Orbán,1884,1986,Győr,Sydney,M,1,1,2,HU,null,500069857,Q1225201
+290,Anna Petrovna,Ostroumova-Lebedeva,1871,1955,Saint Petersburg,Saint Petersburg,F,4,3,2,RU,null,500070835,Q562945
+291,Amédée,Ozenfant,1886,1966,Saint-Quentin Aisne,Cannes,M,null,null,null,FR,null,500009733,Q381937
+292,Bernhard,Pankok,1872,1943,Münster,Baierbrunn,M,1,1,1,DE,null,500013229,Q86346
+293,Jules,Pascin,1885,1930,Vidin,Paris,M,6,4,7,BG,null,500028526,Q469063
+294,Georg Vilhelm,Pauli,1855,1935,Jönköping,Stockholm,M,null,null,null,SE,null,500107733,Q1381512
+295,Max,Pechstein,1881,1955,Zwickau,Berlin,M,8,4,11,DE,null,500032015,Q162105
+296,Giuseppe,Pellizza da Volpedo,1868,1907,Volpedo,Volpedo,M,1,1,1,IT,null,500028941,Q1528580
+297,Constant,Permeke,1886,1952,Antwerp,Ostend,M,1,1,1,BE,null,500013033,Q381911
+298,Kuz'ma,Petrov-Vodkin,1878,1939,Khvalynsk,Saint Petersburg,M,3,3,3,RU,null,500014171,Q364226
+299,Albert,Pfister,1884,1978,Stäfa,Erlenbach,M,1,1,1,CH,null,500162557,Q61993229
+300,Francis,Picabia,1879,1953,Paris,Paris,M,4,3,7,FR,null,500006325,Q157321
+301,Pablo,Picasso,1881,1973,Málaga,Mougins,M,8,6,17,ES,null,500009666,Q5593
+302,Niko,Pirosmanishvili,1862,1918,Mirzaani,Tbilisi,M,null,null,null,GE,null,500029394,Q310896
+303,Armand,Point,1861,1932,Algiers,Marlotte,M,null,null,null,FR,null,500046976,Q732208
+304,Jan,Preisler,1872,1918,Dvůr Králové,Prague,M,2,2,2,CZ,null,500014295,Q2104325
+305,Maurice Brazil,Prendergast,1858,1924,Saint John's,New York,M,1,1,1,US,null,500004329,Q248707
+306,Gaetano,Previati,1852,1920,Ferrara,Lavagna,M,1,1,1,IT,null,500030319,Q913979
+307,Antonín,Procházka,1882,1945,Vážany,Brno,M,null,null,null,CZ,null,500020990,Q552055
+308,Hans,Purrmann,1880,1966,Speyer,Basel,M,2,1,3,DE,null,500025884,Q655484
+309,Leo,Putz,1869,1940,Merano,Merano,M,4,3,4,IT,null,500013539,Q1818710
+310,Pierre,Puvis de Chavannes,1824,1898,Lyon,Paris,M,4,4,9,FR,null,500008870,Q216873
+311,Jean,Puy,1876,1960,Roanne,Roanne,M,7,7,10,FR,null,500020856,Q1685780
+312,Isaak Moiseevich,Rabinovich,1894,1961,Kiev,Moscow,M,null,null,null,RU,null,500124235,Q4386722
+313,Paul Elie,Ranson,1861,1909,Limoges,Paris,M,2,2,4,FR,null,500029480,Q585067
+314,William,Ratcliffe,1870,1955,Clenchwarton,London,M,2,1,5,GB,null,500021605,Q8017384
+315,null,Man Ray,1890,1976,Philadelphia,Paris,M,null,null,null,US,null,500015030,Q46139
+316,Odilon,Redon,1840,1916,Bordeaux,Paris,M,7,6,13,FR,null,500007292,Q154349
+317,Pierre-Auguste,Renoir,1841,1919,Limoges,Cagnes-sur-Mer,M,10,8,22,FR,null,500115467,Q39931
+318,Alfred,Reth,1884,1966,Budapest,Paris,M,1,1,1,FR,null,500023179,Q1253013
+319,József,Rippl-Rónai,1861,1927,Kaposvár,Kaposvár,M,3,3,5,HU,null,500009950,Q569369
+320,Diego,Rivera,1886,1957,Guanajuato,Mexico City,M,1,1,1,MX,null,500025126,Q171128
+321,William,Roberts,1895,1980,London,London,M,1,1,3,GB,null,500025069,Q345196
+322,Alexander,Rodchenko,1891,1956,Saint Petersburg,Moscow,M,null,null,null,RU,null,500017582,Q312631
+323,Auguste,Rodin,1840,1917,Paris,Meudon,M,5,5,6,FR,null,500016619,Q30755
+324,Maurice,Rodo de Niederhäusern,1863,1913,Vevey,Munich,M,null,null,null,CH,null,500023630,Q680263
+325,Christian,Rohlfs,1849,1938,Neindorf,Hagen,M,5,2,6,DE,null,500017013,Q62992
+326,Romolo,Romani,1884,1916,Milan,Brescia,M,null,null,null,IT,null,500003689,Q16598333
+327,Félicien,Rops,1833,1898,Namur,Corbeil-Essonnes,M,2,2,3,BE,null,500020047,Q378129
+328,Medardo,Rosso,1858,1928,Turin,Milan,M,null,null,null,IT,null,500020447,Q678193
+329,Georges,Rouault,1871,1958,Paris,Paris,M,5,4,9,FR,null,500024798,Q156128
+330,Henri,Rousseau,1844,1910,Laval,Paris,M,9,7,8,FR,null,500115462,Q156386
+331,Ker-Xavier,Roussel,1867,1944,Lorry-lès-Metz,L'Étang-la-Ville,M,9,7,14,FR,null,500025651,Q533859
+332,Morgan,Russell,1886,1953,New York,Broomall,M,1,1,1,US,null,500028605,Q2344742
+333,Luigi,Russolo,1885,1947,Venice,Venice,M,8,6,9,IT,null,500018220,Q434916
+334,Nikolay,Ryabushinsky,1876,1951,Moscow,Nice,M,null,null,null,RU,null,500120713,Q15640190
+335,Albert Pinkham,Ryder,1847,1917,New Bedford,Elmhurst,M,null,null,null,US,null,500030492,Q948598
+336,Gösta,Sandels,1887,1919,Gothenburg,Granada,M,1,1,1,SE,null,500094606,Q6092385
+337,Antonio,Sant'Elia,1888,1916,Como,Monfalcone,M,null,null,null,IT,null,500010939,Q382053
+338,Nikolay,Sapunov,1880,1912,Moscow,Zelenogorsk,M,1,1,1,RU,null,500011022,Q3876947
+339,Martiros,Sarian,1880,1972,Nakhichevan,Yerevan,M,1,1,1,AM,null,500012519,Q718409
+340,Morton Livingston,Schamberg,1881,1918,Philadelphia,Philadelphia,M,null,null,null,US,null,500008889,Q1948749
+341,Linka,Procházková,1884,1960,Nové Dvory,Brno,F,null,null,null,CZ,null,NULL,Q12033568
+342,Lodewijk,Schelfhout,1881,1943,Hague The,Amstelveen,M,1,1,1,NL,null,500015799,Q1867743
+343,Egon,Schiele,1890,1918,Tulln,Vienna,M,5,3,7,AT,null,500002633,Q44032
+344,Oskar,Schlemmer,1888,1943,Stuttgart,Baden-Baden,M,null,null,null,DE,null,500010968,Q458816
+345,Karl,Schmidt-Rottluff,1884,1976,Rottluff,Berlin,M,5,2,8,DE,null,500005940,Q161143
+346,Arnold,Schoenberg,1874,1951,Vienna,Los Angeles,M,2,2,2,AT,null,500030015,Q154770
+347,Emile,Schuffenecker,1851,1934,Fresne-Saint-Mamès,Paris,M,1,1,1,FR,null,500013470,Q286456
+348,Arthur,Segal,1875,1944,Iași,London,M,3,2,4,RO,null,500028300,Q215049
+349,Giovanni,Segantini,1858,1899,Arco,Pontresina,M,1,1,1,IT,null,500005029,Q379300
+350,Armand,Séguin,1869,1903,Paris,Châteauneuf-du-Faou,M,1,1,1,FR,null,500019502,Q4792704
+351,Paul,Sérusier,1864,1927,Paris,Morlaix,M,2,2,5,FR,null,500029078,Q326606
+352,Albert,Servaes,1883,1966,Ghent,Luzern,M,null,null,null,BE,null,500005497,Q2197592
+353,Georges,Seurat,1859,1891,Paris,Paris,M,4,4,7,FR,null,500008873,Q34013
+354,Gino,Severini,1883,1966,Cortona,Paris,M,8,6,10,IT,null,500009799,Q169984
+355,René,Seyssaud,1867,1952,Marseilles,Saint-Chamas,M,2,2,4,FR,null,500009385,Q3426890
+356,Charles,Sheeler,1883,1965,Philadelphia,Dobbs Ferry,M,null,null,null,US,null,500115325,Q624868
+357,Aleksandr,Shevchenko,1883,1948,Kharkov,Moscow,M,null,null,null,RU,null,500072868,Q2833546
+358,Iosif Solomonovič,Škol'nik,1883,1926,Balta Odessa Oblast,Saint Petersburg,M,1,1,1,UA,null,500171924,Q4525263
+359,Léopold,Survage,1879,1968,Moscow,Paris,M,null,null,null,RU,null,500008491,Q734172
+360,Walter Richard,Sickert,1860,1942,Munich,Bathampton,M,3,2,8,GB,null,500001141,Q703369
+361,Paul,Signac,1863,1935,Paris,Paris,M,12,11,14,FR,null,500008410,Q151573
+362,Ladislav,Šíma,1885,1956,Prague,Benešov,M,null,null,null,CZ,null,NULL,Q94637857
+363,Renée,Sintenis,1888,1965,Silesia,Berlin,F,null,null,null,DE,null,500076525,Q64341
+364,Max,Slevogt,1868,1932,Landshut,Leinsweiler,M,5,4,6,DE,null,500016330,Q703356
+365,John,Sloan,1871,1951,Lock Haven,Hanover New Hampshire,M,2,1,2,US,null,500014645,Q861756
+366,Johannes Carolus Bernardus,Sluijters,1881,1957,s Hertogenbosch,Amsterdam,M,2,1,2,NL,null,500008116,Q1682227
+367,Matthew Arnold Bracy,Smith,1879,1959,Halifax,London,M,null,null,null,GB,null,500007882,Q3299800
+368,Ardengo,Soffici,1879,1964,Rignano sull'Arno,Forte dei Marmi,M,5,3,5,IT,null,500020816,Q638877
+369,Konstantin,Somov,1869,1939,Saint Petersburg,Paris,M,1,1,1,RU,null,500031589,Q433067
+370,Henrik,Sørensen,1882,1962,Fryksände,Christiania (Oslo),M,null,null,null,NO,null,500031332,Q4581830
+371,Václav,Špála,1885,1946,Žlunice,Prague,M,null,null,null,CZ,null,500000259,Q2477590
+372,Ėduard Karlovič,Spandikov,1875,1929,Kalvarija,null,M,null,null,null,RU,null,NULL,null
+373,Stanley,Spencer,1891,1959,Cookham,Cliveden,M,1,1,3,GB,null,500006212,Q1282413
+374,Léon,Spilliaert,1881,1946,Ostend,Brussels,M,null,null,null,BE,null,500018978,Q1394505
+375,Jacob,Steinhardt,1887,1968,Zerków,Nahariyya,M,1,1,1,IL,null,500018899,Q214106
+376,Joseph,Stella,1877,1946,Muro Lucano,New York,M,null,null,null,US,null,500032250,Q1347418
+377,John,Sten,1879,1922,Njutångers socken,Bali,M,null,null,null,SE,null,500058693,Q6188585
+378,Maurice,Sterne,1877,1957,Liepāja,Mount Kisco,M,1,1,1,US,null,500026464,Q3852444
+379,August,Strindberg,1849,1912,Stockholm,Stockholm,M,null,null,null,SE,null,500018793,Q7724
+380,Sergey,Sudyekin,1882,1946,Smolensk,Nyack,M,3,3,3,RU,null,500027856,Q2506375
+381,Georg,Tappert,1880,1957,Berlin,Berlin,M,3,3,4,DE,null,500023870,Q828591
+382,Johan Thorn,Prikker,1868,1932,Hague The,Cologne,M,1,1,1,NL,null,500011607,Q458861
+383,Lajos,Tihanyi,1885,1938,Budapest,Paris,M,1,1,2,HU,null,500056320,Q856707
+384,Charley,Toorop,1891,1955,Katwijk aan Zee,Bergen North Holland,F,null,null,null,NL,null,500029592,Q446922
+385,Oluf,Wold-Torne,1867,1919,Son,Christiania (Oslo),M,2,2,2,NO,null,500071354,Q11993779
+386,Henri de,Toulouse-Lautrec,1864,1901,Albi,Langon,M,7,6,15,FR,null,500029114,Q82445
+387,Albert,Trachsel,1863,1929,Nidau,Geneva,M,2,2,2,CH,null,500017862,Q18692616
+388,John Henry,Twachtman,1853,1902,Cincinnati,Gloucester,M,1,1,1,US,null,500006514,Q1342683
+389,Edgard,Tytgat,1879,1957,Brussels,Brussels,M,1,1,1,BE,null,500031116,Q366851
+390,Nikolay Pavlovic,Ul'yanov,1875,1949,Yelets,Moscow,M,1,1,1,RU,null,500006181,Q4475073
+391,Petr Savvič,Utkin,1877,1934,Tambov,Saint Petersburg,M,5,4,3,RU,null,500030049,Q3926151
+392,Maurice,Utrillo,1883,1955,Paris,Dax,M,2,2,2,FR,null,500008404,Q108301
+393,Suzanne,Valadon,1865,1938,Bessines-sur-Gartempe,Paris,F,null,null,null,FR,null,500032597,Q156889
+394,Félix,Vallotton,1865,1925,Lausanne,Paris,M,10,9,11,CH,null,500017056,Q123740
+395,Louis,Valtat,1869,1952,Dieppe,Paris,M,6,5,9,FR,null,500026675,Q1872017
+396,Frits van den,Berghe,1883,1939,Ghent,Ghent,M,null,null,null,BE,null,500029175,Q181503
+397,Henry van de,Velde,1863,1957,Antwerp,Zurich,M,null,null,null,BE,null,500002737,Q154083
+398,Gustave van de,Woestijne,1881,1947,Ghent,Brussels,M,2,2,2,BE,null,500030799,Q2519247
+399,Theo van,Doesburg,1883,1931,Utrecht,Davos,M,null,null,null,NL,null,500007926,Q160422
+400,Kees van,Dongen,1877,1968,Rotterdam,Monte Carlo,M,12,9,16,NL,null,500005833,Q170345
+401,Vincent van,Gogh,1853,1890,Zundert,Auvers-sur-Oise,M,11,7,27,NL,null,500115588,Q5582
+402,Jacoba van,Heemskerck van Beest,1876,1923,Hague The,Domburg,F,2,1,2,NL,null,500032343,Q440922
+403,Otto van,Rees,1884,1957,Freiburg im Breisgau,Utrecht,M,1,1,1,NL,null,500013609,Q2372742
+404,Théo van,Rysselberghe,1862,1926,Ghent,Saint-Clair Var,M,8,7,10,BE,null,500030824,Q671883
+405,Georges,Vantongerloo,1886,1965,Antwerp,Paris,M,null,null,null,BE,null,500028929,Q771670
+406,Emile,Verhaeren,1856,1916,Sint-Amands,Rouen,M,null,null,null,BE,null,500238325,Q193680
+407,Jean,Verhoeven,null,null,null,null,M,null,null,null,null,null,NULL,null
+408,Jacques,Villon,1875,1963,Damville,Puteaux,M,3,3,4,FR,null,500003616,Q452254
+409,Albert Paris von,Gütersloh,1887,1973,Vienna,Baden bei Wien,M,2,2,3,AT,null,500029186,Q697839
+410,Ludwig von,Hofmann,1861,1945,Darmstadt,Pillnitz,M,5,3,6,DE,null,500023286,Q318551
+411,Hans von,Marées,1837,1887,Elberfeld,Rome,M,2,1,2,DE,null,500014099,Q516121
+412,Franz von,Stuck,1863,1928,Tettenweis,Munich,M,5,3,5,DE,null,500006652,Q45006
+413,Fritz von,Uhde,1848,1911,Limbach-Oberfrohna,Munich,M,7,4,8,DE,null,500014912,Q210201
+414,Marianne,Werefkin,1860,1938,Tula,Ascona,F,8,5,6,RU,null,500009476,Q464016
+415,Mikhail,Vrubel',1856,1910,Omsk,Saint Petersburg,M,1,1,1,RU,null,500008876,Q215100
+416,Edouard,Vuillard,1868,1940,Cuiseaux,Baule la,M,14,11,17,FR,null,500014954,Q239394
+417,Edward,Wadsworth,1889,1949,Cleckheaton,London,M,2,1,4,GB,null,500028119,Q1294022
+418,Abraham,Walkowitz,1880,1965,Tyumen',New York,M,null,null,null,US,null,500026928,Q4669219
+419,Max,Weber,1881,1961,Białystok,Great Neck,M,1,1,2,US,null,500029261,Q535334
+420,Erik,Werenskiold,1855,1938,Eidskog,Christiania (Oslo),M,2,2,2,NO,null,500009636,Q525092
+421,James McNeill,Whistler,1834,1903,Lowell,London,M,3,3,4,US,null,500012432,Q203643
+422,Erich,Wichman,1890,1929,Utrecht,Amsterdam,M,null,null,null,NL,null,500189682,Q1353502
+423,Alfred Aaron,Wolmark,1877,1961,Warsaw,London,M,2,2,5,GB,null,500030801,Q4476134
+424,Rik,Wouters,1882,1916,Mechelen,Amsterdam,M,1,1,1,BE,null,500028568,Q939197
+425,Georgy,Yakulov,1884,1928,Tbilisi,Yerevan,M,1,1,1,GE,null,500008362,Q1509157
+426,Ossip,Zadkine,1890,1967,Vitebsk,Paris,M,null,null,null,FR,null,500007328,Q160172
+427,Kyril Mikhailovich,Zdanevich,1892,1969,Tbilisi,Tbilisi,M,null,null,null,RU,null,500183057,Q3652063
+428,William,Zorach,1887,1966,Jurbarkas,Bath,M,null,null,null,US,null,500003603,Q385941
+429,Anders,Zorn,1860,1920,Mora,Mora,M,6,5,8,SE,null,500002927,Q206820
+430,Jan,Zrzavý,1890,1977,Havlíčkův Brod,Prague,M,null,null,null,CZ,null,500027602,Q303530
+431,null,alberts,null,null,null,null,null,null,null,null,null,null,NULL,null
+432,Jacob,Alberts,1860,1941,Silesia,Malente,M,4,2,4,DE,null,500032913,Q1677411
+433,Hans,Baluschek,1870,1935,Breslau,Berlin,M,3,2,3,DE,null,500009304,Q313982
+434,Carl Ludwig Noah,Bantzer,1857,1941,Ziegenhain,Marburg,M,3,2,3,DE,null,500020257,Q878161
+435,Wilhelm Peter,Bayer,1871,1919,Karlsruhe,Mannheim,M,1,1,1,DE,null,500426983,Q94891411
+436,Ernst,Bischoff-Culm,1870,1917,Chełmno,France,M,2,1,2,DE,null,500356704,Q19959006
+437,Josef,Block,1863,1943,Bernstadt in Schlesien,Berlin,M,2,1,2,DE,null,500177420,Q572163
+438,Gregor von the elder,Bochmann,1850,1930,Estonia,Hösel,M,3,2,3,DE,null,500026067,Q884043
+439,null,bondy,null,null,null,null,null,null,null,null,null,null,bondy walt,null
+440,Walther,Bondy,1880,1940,Prague,Toulon,M,2,1,3,CZ,null,NULL,Q2543687
+441,Hans,Borchardt,1865,1917,Berlin,Munich,M,6,4,6,DE,null,500107447,Q30754404
+442,Robert,Breyer,1866,1941,Stuttgart,Bensheim,M,4,2,4,DE,null,500105481,Q1703739
+443,Theo von,Brockhusen,1882,1919,Olecko,Berlin,M,6,3,6,DE,null,500111290,Q1568983
+444,Hermann,Bruck,1873,1951,Hirschberg Schlesien,Sydney,M,1,1,1,DE,null,NULL,null
+445,Wilhelm,Claudius,1854,1942,Altona,Dresden,M,1,1,1,DE,null,500046101,Q2572275
+446,Walter,Conz,1872,1947,Stuttgart,Überlingen,M,2,2,2,DE,null,500132068,Q2543916
+447,Joseph,Damberger,1867,1951,Munich,Munich,M,1,1,1,DE,null,500077682,Q37788819
+448,Ludwig,Dill,1848,1940,Gernsbach,Karlsruhe,M,5,4,5,DE,null,500030744,Q880914
+449,Andreas,Dirks,1866,1922,Tinnum,Dusseldorf,M,3,1,3,DE,null,500087449,Q19967674
+450,Fritz,Erler,1868,1940,Frankenstein,Munich,M,4,3,4,DE,null,500011750,Q100750
+451,Erich,Erler,1870,1935,Frankenstein,Icking,M,1,1,1,DE,null,500103115,Q1352143
+452,Julius,Exter,1863,1939,Ludwigshafen,Übersee,M,2,2,2,DE,null,500085142,Q872996
+453,Amandus,Faure,1874,1931,Hamburg,Stuttgart,M,3,1,3,DE,null,500138124,Q18507752
+454,Konrad,Fehr,1854,1933,Toftlund,Berlin,M,null,null,null,DE,null,500094783,Q27900246
+455,Adele von,Finck,1879,1943,Buenos Aires,Berlin,F,null,null,null,DE,null,500138687,Q21645417
+456,Philipp,Franck,1860,1944,Frankfurt am Main,Berlin,M,2,1,2,DE,null,500023945,Q2086720
+457,Otto,Friedrich,1862,1937,Győr,Vienna,M,null,null,null,HU,null,500062687,Q874606
+458,Ernst,Gabler,1872,1937,Eisenach,Berlin,M,null,null,null,DE,null,NULL,null
+459,Carlos,Grethe,1864,1913,Montevideo,Nieuwpoort,M,4,2,4,DE,null,500022824,Q1042951
+460,Rudolf,Gudden,1863,1935,Werneck,Munich,M,2,2,2,DE,null,500142927,Q15843228
+461,Hugo von,Habermann,1849,1929,Dillingen an der Donau,Munich,M,5,3,6,DE,null,500008506,Q316819
+462,Theodor Joseph,Hagen,1842,1919,Düsseldorf,Weimar,M,2,2,2,DE,null,500025781,Q2417677
+463,Karl,Haider,1846,1912,Munich,Schliersee,M,4,2,4,DE,null,500028610,Q1437598
+464,Erich,Hancke,1871,1954,Breslau,Berlin,M,1,1,1,DE,null,NULL,Q95007082
+465,Hugo Friedrich,Hartmann,1870,1960,Susz,Bardowick,M,3,1,3,DE,null,NULL,Q1635043
+466,Robert von,Haug,1857,1922,Stuttgart,Stuttgart,M,1,1,1,DE,null,500017890,Q14906776
+467,Hans von,Hayek,1869,1940,Vienna,Munich,M,4,3,4,AT,null,500008990,Q1241091
+468,Thomas Theodor,Heine,1867,1948,Leipzig,Stockholm,M,2,2,2,DE,null,500031323,Q216004
+469,Hermine,Heller-Ostersetzer,1874,1909,Vienna,Grimmenstein,F,null,null,null,AT,null,500144993,Q1613597
+470,Curt,Herrmann,1854,1929,Merseburg,Erlangen,M,1,1,1,DE,null,500007906,Q15804115
+471,Fritz,Herzog,null,null,null,null,M,null,null,null,null,null,NULL,null
+472,Otto,Hettner,1875,1931,Dresden,Dresden,M,4,1,4,DE,null,500103843,Q2039194
+473,Dora,Hitz,1856,1924,Altdorf bei Nürnberg,Berlin,F,2,1,3,DE,null,500009458,Q113144
+474,Robert,Hoffmann,1868,1935,Stuttgart,Urberg,M,2,2,2,DE,null,500146190,Q94863596
+475,Heinrich,Hübner,1869,1945,Berlin,Dingelsdorf,M,3,1,3,DE,null,500071856,Q47657435
+476,Theodor,Hummel,1864,1939,Schliersee,Munich,M,1,1,1,DE,null,500011235,Q1792753
+477,Leopold,Kalckreuth,1855,1928,Dusseldorf,Seevetal,M,5,3,5,DE,null,500025047,Q315488
+478,Konrad von,Kardorff,1877,1945,Silesia,Berlin,M,4,3,4,DE,null,500073760,Q15452253
+479,Albert von,Keller,1844,1920,Gais,Munich,M,4,3,4,DE,null,500003471,Q567382
+480,Philipp,Klein,1871,1907,Mannheim,Gundelsheim,M,3,1,3,DE,null,500023078,Q37595149
+481,Von Diepold Leo,Klein,1865,1944,Dortmund,Berlin,M,2,1,2,DE,null,500150037,Q27334673
+482,Paul,Klimsch,1868,1917,Frankfurt am Main,Frankfurt am Main,M,null,null,null,DE,null,500118491,Q827910
+483,Leo von,König,1871,1944,Brunswick,Tutzing,M,null,null,null,DE,null,500007527,Q109728
+484,Gotthardt,Kuehl,1850,1915,Lubeck,Dresden,M,4,3,4,DE,null,500027088,Q879198
+485,Max,Kurzweil,1867,1916,Moravia,Vienna,M,2,2,3,AT,null,500049222,Q317883
+486,Christian Adam,Landenberger,1862,1927,Ebingen,Stuttgart,M,null,null,null,DE,null,500019725,Q1080749
+487,Walter,Leistikow,1865,1908,Bydgoszcz,Berlin,M,6,3,7,DE,null,500010320,Q573668
+488,Reinhold,Lepsius,1857,1922,Berlin,Berlin,M,1,1,1,DE,null,500082340,Q318738
+489,Sabine,Lepsius,1864,1942,Berlin,Bayreuth,F,null,null,null,DE,null,500086319,Q530383
+490,Adolfo,Levier,1873,1953,Trieste,Trieste,M,null,null,null,IT,null,500076024,Q52148545
+491,Helmuth,Liesegang,1858,1945,Duisburg,Leipzig,M,1,1,1,DE,null,500032346,Q17712883
+492,Heinrich Eduard,Linde-Walther,1868,1939,Lubeck,Travemünde,M,2,1,2,DE,null,NULL,Q1597109
+493,Adolf,Luntz,1875,1924,Vienna,Karlsruhe,M,null,null,null,AT,null,500082501,Q363238
+494,Fritz,Mackensen,1866,1953,Greene,Bremen,M,1,1,1,DE,null,500007946,Q448400
+495,Bruno,Marquardt,1878,1916,Berlin,Verdun-sur-Meuse,M,1,1,1,DE,null,NULL,Q74199063
+496,Carl,Moll,1861,1945,Vienna,Vienna,M,2,2,2,AT,null,500031489,Q697780
+497,Hermann,Münchhausen,1875,1947,Brzeg,Berlin,M,1,1,1,DE,null,NULL,Q2643437
+498,Rudolf,Nissl,1870,1955,Fügen,Munich,M,2,1,2,DE,null,500072013,Q1406129
+499,Ernst,Oppler,1867,1929,Hanover,Berlin,M,2,1,2,DE,null,500011635,Q1359654
+500,Fritz,Overbeck,1869,1909,Bremen,Vegesack,M,1,1,1,DE,null,500009506,Q455798
+501,Richard,Pietzsch,1872,1960,Blasewitz,Munich,M,2,2,2,DE,null,500101458,Q1737680
+502,Hermann,Pleuer,1863,1911,Schwäbisch Gmünd,Stuttgart,M,3,3,3,DE,null,500013552,Q1612363
+503,Emil,Pottner,1872,1942,Salzburg,Minsk,M,4,3,4,DE,null,500078626,Q18223518
+504,Heine,Rath,1873,1920,Berlin,Stuttgart,M,3,2,3,DE,null,NULL,Q50291572
+505,Heinrich,Reifferscheid,1872,1945,Breslau,Niederdollendorf,M,2,2,2,DE,null,500165704,Q1598542
+506,Otto the younger,Reiniger,1863,1909,Stuttgart,Korntal-Münchingen,M,2,2,2,DE,null,500096374,Q2040272
+507,Fritz,Rhein,1873,1948,Stettin,Freckenhorst,M,3,2,3,DE,null,500074751,Q1467966
+508,Robert Ludwig,Richter,1883,null,null,null,M,1,1,1,DE,null,500166247,null
+509,Rudolf,Riemerschmid,1873,1953,Munich,Munich,M,null,null,null,DE,null,500166332,Q52156073
+510,Georg,Sauter,1866,1937,Markt Rettenbach,Brannenburg,M,3,3,3,DE,null,500031091,Q21462299
+511,Alexander,Schmidt-Michelsen,1859,1908,Leipzig,Leipzig,M,1,1,1,DE,null,500170380,Q28053741
+512,Maria,Slavona,1865,1931,Lubeck,Berlin,F,3,3,3,DE,null,500019834,Q1593149
+513,Otto,Sohn-Rethel,1877,1949,Dusseldorf,Anacapri,M,null,null,null,DE,null,500108670,Q18629628
+514,Eugen,Spiro,1874,1972,Breslau,New York,M,4,3,5,DE,null,500002701,Q214008
+515,Toni von,Stadler,1850,1917,Göllersdorf,Munich,M,4,3,4,AT,null,500028805,Q596461
+516,Robert Hermann,Sterl,1867,1932,Großdobritz,Naundorf (Struppen),M,3,2,3,DE,null,500010194,Q319032
+517,Ulrich,Hübner,1872,1932,Berlin,Neubabelsberg,M,5,4,5,DE,null,500032446,Q877843
+518,George,Mosson,1851,1933,Aix-en-Provence,Berlin,M,2,1,2,DE,null,500098746,Q1949475
+519,Marie,Herbays,null,null,null,null,F,null,null,null,null,null,NULL,null
+520,Theresia Elisa van,Hall,1872,1931,Utrecht,Amsterdam,F,null,null,null,NL,null,NULL,Q13493785
+521,André,Blandin,1878,1944,Paris,null,M,null,null,null,FR,null,NULL,Q27505312
+522,Pierre,Abattuci,1871,1942,Molenbeek-Saint-Jean,Ixelles,M,1,1,1,BE,null,500024185,Q11309879
+523,Charles,Bonaugure,1880,1947,Mechelen,Mechelen,M,null,null,null,BE,null,NULL,null
+524,Marnix d',Haveloose,1885,1973,Maldegem,Brussels,M,null,null,null,BE,null,NULL,Q21645218
+525,H.,Daye,null,null,null,null,null,null,null,null,null,null,NULL,null
+526,Anne-Pierre de,Kat,1881,1968,Delft,La Frette-sur-Seine,M,null,null,null,BE,null,500056559,Q2850919
+527,René,De Man,null,null,null,null,M,null,null,null,BE,null,NULL,null
+528,Paul,Bayard,null,null,null,null,M,null,null,null,null,null,NULL,null
+529,Léon,Billiet,1868,1949,null,null,M,1,1,1,BE,null,NULL,null
+530,Theo,Blickx,1875,1963,Mechelen,Mechelen,M,null,null,null,BE,null,NULL,Q2040493
+531,Nand,Buyle,1872,1950,Roubaix,Watermaal-Bosvoorde,M,null,null,null,BE,null,NULL,null
+532,Edgar,Bytebier,1875,1940,Ghent,Dilbeek,M,null,null,null,BE,null,NULL,Q3047436
+533,Félix,Constant,1865,1924,Brussels,Brussels,M,null,null,null,BE,null,NULL,null
+534,Joseph,De Meyer,null,null,null,null,M,null,null,null,null,null,NULL,null
+535,null,Desaedeleer,null,null,null,null,M,null,null,null,null,null,NULL,null
+536,Jules,Dubois,1864,1957,null,null,M,null,null,null,BE,null,NULL,null
+537,Jean,Eyckelbosch,null,null,null,null,M,null,null,null,null,null,NULL,null
+538,Francois,Gailliard,1861,1932,Brussels,Saint-Gilles,M,2,2,2,BE,null,500140471,Q2113391
+539,François Joseph Clement,Halkett,1856,1921,Brussels,Ixelles,M,null,null,null,BE,null,500143612,Q2382453
+540,Adolphe,Keller,1880,1968,Brussels,Brussels,M,null,null,null,BE,null,NULL,Q2824846
+541,Henri,Roidot,1877,1960,Anderlecht,Linkebeek,M,1,1,1,BE,null,500042596,Q52156239
+542,Jules,Rullens,1858,1936,Ghent,Woluwe-Saint-Lambert,M,null,null,null,BE,null,NULL,Q28927562
+543,H.,Schaepherders,null,null,null,null,null,null,null,null,null,null,NULL,null
+544,Louis,Taverne,1859,1934,Brussels,Saint-Gilles,M,null,null,null,BE,null,NULL,Q60643161
+545,Alphonse van Sr.,Beurden,1854,1938,Antwerp,Antwerp,M,null,null,null,BE,null,500197493,null
+546,Frans van,Damme,1858,1925,Hamme,Brussels,M,1,1,1,BE,null,500133630,Q2803460
+547,Hubert van den,Bossche,1874,1957,Ninove,Linkebeek,M,null,null,null,BE,null,NULL,Q2789711
+548,Pierre,Weyel,null,null,null,null,M,null,null,null,null,null,NULL,null
+549,Clément de,Porre,1874,1947,Ghent,Ledeberg (Ghent),M,1,1,1,BE,null,NULL,Q21646503
+550,Léon de,Smet,1881,1966,Ghent,Deurle,M,2,2,2,BE,null,500042604,Q2270603
+551,Louis,Dumont,null,null,null,null,M,null,null,null,null,null,NULL,null
+552,Jehan,Frison,1882,1961,Brussels,Linkebeek,M,1,1,1,BE,null,500140108,Q2332893
+553,Richard,Heintz,1871,1929,Vottem,Syria,M,1,1,1,BE,null,500108486,Q113182
+554,Marcel,Jefferys,1872,1924,Milan,Ixelles,M,4,4,4,BE,null,500059086,Q2306385
+555,William,Jelley,1856,1932,Brussels,Anderlecht,M,null,null,null,BE,null,500148319,Q2134192
+556,Aloys,Hugonnet,1879,1938,Morges,Lausanne,M,null,null,null,CH,null,500066333,Q37517195
+557,Pierre,Kerfyser,null,null,null,null,M,null,null,null,null,null,NULL,null
+558,Henri Louis Philippe,Le Roux,1872,1942,Châtelet,Brussels,M,null,null,null,BE,null,500153243,Q55770029
+559,Fernand,Lantoine,1876,1955,Maretz,Brussels,M,1,1,1,FR,null,500042882,Q3069220
+560,Raoul,Martinez,1876,1973,Cuba,Neuilly-sur-Seine,M,null,null,null,NL,null,NULL,Q24024147
+561,Auguste,Oleffe,1867,1931,Brussels,Brussels,M,2,2,2,BE,null,500006760,Q2341464
+562,A.,Paterson,null,null,null,null,null,null,null,null,null,null,NULL,null
+563,Louis Albert,Roessingh,1873,1951,Assen,Antwerp,M,null,null,null,NL,null,500189930,Q3201307
+564,Pierre,Paulus,1881,1959,Châtelet,Saint-Gilles,M,2,2,2,BE,null,500109559,Q1857866
+565,Emile,Rommelaere,1873,1961,Bruges,Westkapelle,M,null,null,null,BE,null,500096281,Q4502896
+566,Charles,Theunissen,1871,1948,As,Watermaal-Bosvoorde,M,2,2,2,BE,null,500041528,Q100994021
+567,Alphonse van Jr.,Beurden,1878,1962,Antwerp,Antwerp,M,2,2,2,BE,null,500170073,Q21396102
+568,Eugène Van,Mierlo,1880,1972,Turnhout,null,M,null,null,null,null,null,NULL,Q26997528
+569,Marten Van Der,Loo,1880,1920,Mortsel,Antwerp,M,null,null,null,BE,null,500154347,Q3155626
+570,Constant van,Offel,1885,1924,Antwerp,Brussels,M,1,1,1,BE,null,NULL,Q110081282
+571,Tony van,Os,1886,1945,Antwerp,Temse,M,null,null,null,BE,null,500160593,Q21396129
+572,Henry,Wauters,null,null,null,null,M,null,null,null,null,null,NULL,null
+573,Emile,Welvaert,null,null,null,null,null,null,null,null,null,null,NULL,null
+574,Wilhelm,Altheim,1871,1914,Groß-Gerau,Frankfurt am Main,M,null,null,null,DE,null,500102910,Q16511799
+575,Maximilien,Luce,1858,1941,Paris,Paris,M,5,5,8,FR,null,500007137,Q545293
+576,Eva,Stort,1855,1936,Berlin,Berlin,F,2,1,2,DE,null,500426382,Q1379502
+577,Carl,Strathmann,1866,1939,Dusseldorf,Munich,M,1,1,2,DE,null,500022563,Q21516056
+578,Max Arthur,Stremel,1859,1928,Zittau,Ulm,M,2,1,2,DE,null,500354180,Q21646727
+579,Hans,Thoma,1839,1924,Bernau im Schwarzwald,Karlsruhe,M,7,4,8,DE,null,500003772,Q678094
+580,Charles,Tooby,1863,1913,London,London,M,3,3,3,GB,null,500407369,Q6409964
+581,Wilhelm,Trübner,1851,1917,Heidelberg,Karlsruhe,M,5,4,6,DE,null,500018062,Q461271
+582,Alice,Trübner,1875,1916,Bradford,Berlin,F,2,2,2,DE,null,500426421,Q52222654
+583,Kurt,Tuch,1877,1963,Leipzig,Muri,M,2,1,2,DE,null,NULL,Q1670957
+584,Hans Richard von,Volkmann,1860,1927,Halle,Halle,M,5,3,5,DE,null,500048089,Q1443872
+585,Karl,Walser,1877,1943,Teufen,Zurich,M,4,3,4,CH,null,500024905,Q1733293
+586,Emil Rudolf,Weiss,1875,1942,Lahr,Meersburg,M,2,1,2,DE,null,500060204,Q1336770
+587,Hans Beatus,Wieland,1867,1945,Gallusberg bei Mörschwil,Kriens,M,1,1,1,CH,null,500048469,Q983222
+588,Heinrich von,Zügel,1850,1941,Murrhardt,Munich,M,8,4,8,DE,null,500013634,Q602549
+589,Benno,Becker,1860,1938,Memel,Munich,M,4,3,4,DE,null,500158013,Q817909
+590,Franz,Christophe,1875,1946,Vienna,Berlin,M,1,1,1,DE,null,500130865,Q57385917
+591,Gerhard,Janssen,1863,1931,Kalkar,Dusseldorf,M,3,2,3,DE,null,500049532,Q15875619
+592,Julius,Klinger,1876,1942,Vienna,Minsk,M,1,1,1,AT,null,500150092,Q874338
+593,Waldemar,Rösler,1882,1916,Striesen,Orzysz,M,4,3,4,DE,null,500013691,Q2541373
+594,Ernst,Stern,1876,1954,Bucharest,London,M,2,1,2,DE,null,500041697,Q763276
+595,Heinrich,Zille,1858,1929,Radeburg,Berlin,M,2,1,2,DE,null,500007472,Q498211
+596,DELETE,DELETE,null,null,null,null,null,null,null,null,null,null,NULL,null
+597,null,malevic,null,null,null,null,null,null,null,null,null,null,NULL,null
+598,V. V.,Shavrin,null,null,null,null,M,null,null,null,RU,null,NULL,null
+599,Leopold,Forstner,1878,1936,Bad Leonfelden,Stockerau,M,null,null,null,AT,null,500002992,Q1819641
+600,Józef,Mehoffer,1869,1946,Ropczyce,Wadowice,M,null,null,null,PL,null,500019125,Q1354695
+601,Ferdinand,Andri,1871,1956,Waidhofen an der Ybbs,Vienna,M,2,2,2,AT,null,500076349,Q1405079
+602,Karl,Müller,1862,1938,Vienna,Vienna,M,null,null,null,AT,null,NULL,Q23498416
+603,Rudolf,Jettmar,1869,1939,Tarnów,Vienna,M,null,null,null,AT,null,500109456,Q698929
+604,Maximilian,Lenz,1860,1948,Vienna,Vienna,M,null,null,null,AT,null,500064897,Q1914015
+605,Josef,Engelhart,1864,1941,Vienna,Vienna,M,3,3,3,AT,null,500008580,Q1704535
+606,Friedrich,König,1857,1941,Vienna,Vienna,M,null,null,null,AT,null,500150526,Q18356440
+607,Carlos,Schwabe,1866,1926,Altona,Avon Seine-et-Marne,M,null,null,null,CH,null,500391572,Q694113
+608,Alfred,Reth,1884,1966,Budapest,Paris,M,null,null,null,FR,null,500023179,null
+609,Julie,Baum,1862,1912,Elberfeld,Berlin,F,null,null,null,DE,null,NULL,null
+610,Wilhelm,Gimmi,1886,1965,Zurich,Chexbres,M,1,1,1,CH,null,500005984,Q21464003
+611,Egon,Adler,1892,1963,Karlovy Vary,New York,M,2,2,2,null,null,NULL,Q1298442
+612,null,Baumann,null,null,null,null,null,null,null,null,null,null,Baumann Fr,null
+613,Vladimir Georgievich,Bekhteev,1878,1971,Moscow,Moscow,M,7,4,5,RU,null,500017773,Q588953
+614,Hanns,Bolz,1885,1918,Aachen,Munich,M,1,1,1,DE,null,500025845,Q828405
+615,Heinrich,Ehmsen,1886,1964,Kiel,Berlin,M,2,1,2,DE,null,500002903,Q104927
+616,Elisabeth I.,Epstein,1879,1956,Zhitomir,Geneva,F,3,2,4,RU,null,500374439,Q1330008
+617,Ugo,Giannattasio,1888,1958,Rome,Turin,M,1,1,1,IT,null,500069167,Q15438408
+618,Franz,Henseler,1883,1918,Rosenheim,Haar,M,2,1,2,DE,null,500034923,Q15857646
+619,Josef,Kölschbach,1892,1947,Cologne,Rhöndorf,M,null,null,null,DE,null,500086456,Q19287138
+620,Adriaan Johan,Korteweg,1890,1917,Wormerveer,Madras,M,null,null,null,null,null,NULL,Q15885392
+621,Nikolay,Kulbin,1868,1917,Helsingfors,Saint Petersburg,M,3,3,3,RU,null,500006250,Q1251704
+622,Alfred,Loeb,1885,1945,Vienna,null,M,1,1,1,AT,null,NULL,null
+623,Corrado Alberto,Mazzei,1884,null,null,null,M,null,null,null,null,null,NULL,null
+624,Carl,Mense,1886,1965,Rheine,Königswinter,M,3,1,3,DE,null,500026393,Q875306
+625,Albert August,Plasschaert,1866,1941,Delft,Hilversum,M,null,null,null,NL,null,500348799,Q54888250
+626,Adriana Catharina van,Rees-Dutilh,1876,1959,Rotterdam,Utrecht,F,null,null,null,NL,null,500081078,Q19754688
+627,Paul Adolf,Seehaus,1891,1919,Bonn,Hamburg,M,3,1,3,DE,null,500013103,Q1345060
+628,Richard,Seewald,1889,1976,Choszczno,Munich,M,1,1,1,DE,null,500078315,Q2150582
+629,Jacques Ernst,Sonderegger,1882,1956,Thusis,Bern,M,null,null,null,CH,null,500061505,Q1677964
+630,Amadeo,Cardoso,1887,1918,Amarante,Espinho,M,1,1,1,PT,null,500006591,Q451771
+631,Curt,Störmer,1891,1976,Hagen,Lubeck,M,1,1,1,DE,null,NULL,Q1145343
+632,Stanisław,Stückgold,1868,1933,Warsaw,Paris,M,1,1,1,PL,null,500176308,Q1291225
+633,Charles de,Tholey,null,null,null,null,M,null,null,null,null,null,NULL,null
+634,Hans,Thuar,1887,1945,Lübben,Bad Langensalza,M,3,1,3,DE,null,500021987,Q1582769
+635,Pawel,Kowalenko,null,null,null,null,M,null,null,null,null,null,NULL,null
+636,Gordon,McCouch,1885,1956,Philadelphia,Locarno,M,null,null,null,US,null,500382242,Q43134086
+637,Conrad,Kikkert,1882,1965,Hague The,Paris,M,null,null,null,NL,null,500005423,Q15874021
+638,null,Beuroner Kunstschule,null,null,null,null,null,null,null,null,null,null,NULL,null
+639,Charles Robert,Ashbee,1863,1942,Isleworth,Sevenoaks,M,null,null,null,GB,null,500030367,Q614071
+640,Maximilian,Liebenwein,1869,1926,Berlin,Berlin,M,null,null,null,DE,null,500111488,Q1914019
+641,Marianne,Stokes,1855,1927,Graz,London,F,null,null,null,GB,null,500009788,Q446382
+642,Albert,Besnard,1849,1934,Paris,Paris,M,8,7,11,FR,null,500030831,Q424348
+643,Ernst,Stöhr,1865,1917,Sankt Pölten,Sankt Pölten,M,null,null,null,AT,null,500002446,Q1360325
+644,Jef,Leempoels,1867,1935,Brussels,Ixelles,M,1,1,1,BE,null,500041956,Q6305444
+645,Johann Victor,Krämer,1861,1949,Adamov (Blansko District),Vienna,M,null,null,null,AT,null,500053659,Q1696478
+646,Eduard von,Gebhardt,1838,1925,Järva-Jaani,Düsseldorf,M,5,2,5,DE,null,500025518,Q322440
+647,Hans,Tichy,1861,1925,Brno,Vienna,M,null,null,null,AT,null,500062817,Q1582771
+648,Josef Edgar,Kleinert,1859,1949,Vienna,Vienna,M,null,null,null,AT,null,500357518,Q60815661
+649,Richard,Harlfinger,1873,1948,Milan,Vienna,M,2,2,2,AT,null,500069800,Q2149702
+650,Léon,Frédéric,1856,1940,Brussels,Schaerbeek,M,4,4,4,BE,null,500020509,Q1361500
+651,Martin,Feuerstein,1856,1931,Barr,Munich,M,null,null,null,FR,null,500007177,Q946393
+652,Hugo,Huber,1852,1913,Durbach,Munich,M,null,null,null,DE,null,NULL,Q94825700
+653,Josef,Huber-Feldkirch,1858,1932,Feldkirch,Neuburg am Inn,M,1,1,1,AT,null,NULL,Q873888
+654,Anton,Bachmann,1871,null,Aschaffenburg,null,M,null,null,null,DE,null,NULL,null
+655,Valentin,Kraus,1873,1941,Mühlhausen (Estenfeld),Würzburg,M,null,null,null,DE,null,NULL,Q18508701
+656,Alfons,Siber,1860,1919,Schwaz,Hall in Tirol,M,null,null,null,AT,null,500171973,Q23054720
+657,Wilhelm,Köppen,1876,1917,Munich,Stuttgart,M,null,null,null,DE,null,NULL,Q61579815
+658,Max,Heilmann,1869,1956,Schmiedeberg,Frankfurt an der Oder,M,null,null,null,DE,null,500144861,null
+659,Leo,Samberger,1861,1949,Ingolstadt,Munich,M,2,2,2,DE,null,500025312,Q1311999
+660,Matthäus,Schiestl,1869,1939,Gnigl,Munich,M,2,2,2,DE,null,500089195,Q1474459
+661,Waldemar,Kolmsperger,1881,1954,Munich,Munich,M,null,null,null,DE,null,NULL,Q32502255
+662,Justus,Wagmiller,null,null,null,null,M,null,null,null,null,null,NULL,null
+663,Theodor,Rauecker,1854,1940,Munich,Munich,M,null,null,null,DE,null,NULL,Q15713723
+664,Balthasar,Schmidt,1858,1942,Aschach,Munich,M,null,null,null,DE,null,NULL,Q805651
+665,Josef,Guntermann,1856,1932,Assinghausen,Munich,M,null,null,null,DE,null,NULL,Q1704709
+666,Gebhard,Fugel,1863,1939,Ravensburg,Munich,M,null,null,null,DE,null,500009104,Q1496893
+667,Anton,Pruska,1846,1930,Goldbrunn,Munich,M,null,null,null,DE,null,NULL,Q52150148
+668,Richard,Berndl,1875,1955,Munich,Munich,M,null,null,null,DE,null,NULL,Q2149070
+669,Eduard,Zimmermann,1872,1949,Stans,Zollikon,M,null,null,null,CH,null,500427653,Q27229252
+670,Ludwig,Glötzle,1847,1929,Immenstadt,Munich,M,null,null,null,DE,null,500070700,Q1613383
+671,Max,Heilmaier,1869,1923,Isen,Munich,M,null,null,null,DE,null,NULL,Q1912659
+672,Theodor,Winter,1872,null,null,null,M,null,null,null,null,null,NULL,null
+673,August,Pacher,1863,1926,Munich,Munich,M,null,null,null,DE,null,NULL,Q768002
+674,Kaspar,Schleibner,1863,1931,Hallstadt,Munich,M,null,null,null,DE,null,500098413,Q1735091
+675,Carl,Marr,1858,1936,Milwaukee,Munich,M,1,1,1,US,null,500003106,Q81987
+676,Josef,Flossmann,1862,1914,Munich,Munich,M,null,null,null,DE,null,NULL,Q1239581
+677,Maximilian,Dasio,1865,1954,Munich,Oberammergau,M,null,null,null,DE,null,500123538,Q873375
+678,Georg,Busch,1862,1943,Hanau,Munich,M,null,null,null,DE,null,NULL,Q1503842
+679,Heinrich,Waderé,1865,1950,Colmar,Munich,M,null,null,null,DE,null,500060858,Q1599156
+680,Carl,Ederer,1875,1951,Vienna,Dusseldorf,M,null,null,null,AT,null,500136806,Q1037549
+681,Georg Nicolai,Achen,1860,1912,Frederikssund,Fredericksberg,M,1,1,1,DK,null,500041915,Q5541909
+682,Otto,Bauriedl,1879,1961,Munich,Munich,M,1,1,1,DE,null,500155687,Q39053765
+683,Carl Johann,Becker-Gundahl,1856,1925,Ballweiler,Munich,M,1,1,1,DE,null,500115861,Q1039021
+684,Jacques-Emile,Blanche,1861,1942,Auteuil,Paris,M,4,4,5,FR,null,500019208,Q936710
+685,Felix,Bürgers,1870,1934,Cologne,Dachau,M,null,null,null,DK,null,500017869,Q1403406
+686,Fritz,Burger,1867,1927,Munich,Lindau,M,3,2,3,DE,null,500055348,Q19626759
+687,George,Clausen,1852,1944,London,Newbury,M,1,1,1,GB,null,500000128,Q3760466
+688,Charles,Cottet,1863,1925,Le Puy,Paris,M,7,6,9,FR,null,500022141,Q1574250
+689,Paul Eduard,Crodel,1862,1928,Cottbus,Dietramszell,M,3,3,3,DE,null,500046142,Q1380227
+690,Eugene,Dekkert,1865,1956,Stettin,Garmisch-Partenkirchen,M,null,null,null,DE,null,500103036,Q43378849
+691,Ludwig,Dettmann,1865,1944,Adelby,Berlin,M,5,2,5,DE,null,500027504,Q474248
+692,Julius,Diez,1870,1954,Nuremberg,Munich,M,2,2,2,DE,null,500021558,Q834335
+693,Hermann,Eichfeld,1845,1917,Karlsruhe,Mannheim,M,1,1,1,DE,null,500137001,Q1610981
+694,Theodor,Esser,1868,1937,Bonn,Karlsruhe,M,1,1,1,DE,null,NULL,Q94832076
+695,Max,Esterle,1870,1947,Cortina d'Ampezzo,Bezau,M,null,null,null,DE,null,500093170,Q18418682
+696,Otto,Fischer,1870,1947,Leipzig,Dresden,M,2,2,2,DE,null,500119437,Q16220779
+697,August,Fricke,1875,1948,Wattenscheid,Bremen,M,1,1,1,DE,null,500062612,Q61315393
+698,Antonio de la,Gandara,1861,1917,Paris,Paris,M,2,2,2,FR,null,500025813,Q606115
+699,Walter,Georgi,1871,1924,Leipzig,Utting,M,3,2,3,DE,null,500093284,Q2544416
+700,Gerassim Semenovich,Golovkov,1863,1909,Odessa,Berlin,M,1,1,1,RU,null,500142471,Q106511343
+701,Oscar,Graf,1873,1958,Freiburg im Breisgau,Bad Boll,M,3,2,3,DE,null,500003580,Q28149996
+702,Hermann,Groeber,1865,1935,Wartenberg Bavaria,Munich,M,4,3,4,DE,null,500077815,Q1611274
+703,Oda,Hardt,1880,1965,Ostróda,Berlin,F,null,null,null,DE,null,NULL,Q2013999
+704,Thomas Alexander,Harrison,1853,1930,Philadelphia,Paris,M,2,2,2,US,null,500006827,Q7668126
+705,Emanuel,Hegenbarth,1868,1923,Česká Kamenice,Dresden,M,4,3,4,DE,null,500073049,Q1334677
+706,Adolf,Hengeler,1863,1927,Kempten,Munich,M,5,3,5,DE,null,500004965,Q54891
+707,Paul,Höcker,1854,1910,Długopole Górne,Munich,M,1,1,1,DE,null,500023506,Q315856
+708,Gerard,Jacobs,1865,1958,Antwerp,Flushing,M,null,null,null,BE,null,500147861,Q2567419
+709,Angelo,Jank,1868,1940,Munich,Munich,M,3,3,3,DE,null,500074383,Q536075
+710,Julius Paul,Junghanns,1876,1958,Vienna,Dusseldorf,M,3,3,3,DE,null,500048128,Q1712871
+711,Richard,Kaiser,1868,1941,Magdeburg,Munich,M,4,3,4,DE,null,500031380,Q39054067
+712,Paul Wilhelm,Keller-Reutlingen,1854,1920,Reutlingen,Munich,M,null,null,null,DE,null,500115721,Q26913533
+713,Heinrich,Knirr,1862,1944,Pančevo,Staudach-Egerndach,M,2,2,2,DE,null,500124698,Q835503
+714,Albert,Lamm,1873,1939,Berlin,Berlin,M,1,1,1,DE,null,500151634,Q1563387
+715,John,Lavery,1856,1941,Belfast,Kilkenny,M,4,4,4,IE,**** 1906/06 Munich Secession: \RSA.\,500000428,Q609328
+716,Wilhelm Ludwig,Lehmann,1861,1932,Zurich,Zurich,M,1,1,1,CH,null,500113073,Q19238777
+717,Friedrich,Lissmann,1880,1915,Bremen,Ypres,M,1,1,1,DE,null,500427521,Q25734530
+718,Carl Theodor,Meyer-Basel,1860,1932,Basel,Sankt Gallen,M,3,3,3,CH,null,500040866,Q20676096
+719,Henry,Muhrmann,1854,1916,Cincinnati,Meissen,M,1,1,1,US,null,500029850,Q16059203
+720,Paul,Neuenborn,1866,1913,Stolberg (Rhineland),Munich,M,2,2,2,DE,null,500159220,Q23951564
+721,August L. M.,Neven du Mont,1868,1909,Cologne,Bexhill-on-Sea,M,null,null,null,FR,null,500022679,Q4820782
+722,Joseph,Oppenheimer,1876,1966,Würzburg,Montreal,M,3,2,3,DE,null,500102630,Q1426606
+723,James,Paterson,1854,1932,Glasgow,Edinburgh,M,1,1,1,GB,null,500013467,Q177194
+724,Karl Johann Nikolaus,Piepho,1869,1920,Frankfurt am Main,Munich,M,1,1,1,DE,null,500179868,Q44256709
+725,Bertram,Priestman,1868,1951,Bradford,Woodbridge,M,3,3,3,GB,null,500016008,Q21460293
+726,Adolf,Robbi,1868,1922,Ilanz,Munich,M,null,null,null,CH,null,NULL,Q2824708
+727,Carl Hans,Schrader-Velgen,1876,1945,Hanover,Hanover,M,null,null,null,DE,null,500170636,Q37355252
+728,Rudolf,Schramm-Zittau,1874,1929,Zittau,Ehrwald,M,7,4,7,DE,null,500005282,Q1277438
+729,Nelly von,Seidlitz-Eichler,1870,1947,Saint Petersburg,Irschenhausen,F,null,null,null,DE,null,NULL,Q104600995
+730,Julius,Seyler,1873,1958,Munich,Munich,M,null,null,null,DE,null,500076144,Q896631
+731,Franz,Skarbina,1849,1910,Berlin,Berlin,M,3,3,3,DE,null,500011377,Q559023
+732,Christian,Speyer,1855,1929,Vorbachzimmern,Stuttgart,M,null,null,null,DE,null,500055453,Q21866860
+733,Frigyes,Strobentz,1856,1929,Budapest,Munich,M,4,4,5,HU,null,500176203,Q1291986
+734,Willem Bastiaan,Tholen,1860,1931,Amsterdam,Hague The,M,3,2,3,NL,null,500007837,Q2557203
+735,Adolf,Thomann,1874,1961,Zurich,Zollikon,M,1,1,1,CH,null,500048105,Q52156123
+736,Viktor,Thomas,1854,1933,Marburg,null,M,1,1,1,DE,null,NULL,Q94850071
+737,Charles,Vetter,1858,1941,Schkopau,Munich,M,1,1,1,DE,null,500094259,Q18508062
+738,Carl,Vinnen,1863,1922,Bremen,Munich,M,2,2,2,DE,null,500090469,Q1040887
+739,Walter,Waentig,1881,1962,Zittau,Gaienhofen,M,null,null,null,DE,null,500107866,Q55847128
+740,Albert,Weisgerber,1878,1915,Sankt Ingbert,Fromelles,M,4,1,4,DE,null,500023378,Q451003
+741,Richard,Winternitz,1861,1929,Stuttgart,Munich,M,1,1,1,DE,null,500057605,Q19299143
+742,Alfred,Withers,1856,1932,London,London,M,2,2,2,GB,null,500006499,Q21455382
+743,Eugen,Wolff,1873,1937,Uhingen,Munich,M,null,null,null,DE,null,500055451,Q52432208
+744,José Mariá,Sert y Badiá,1874,1945,Barcelona,Barcelona,M,null,null,null,ES,null,500013267,Q956114
+745,Gaston de,Latouche,1854,1913,Saint-Cloud,Paris,M,5,4,5,FR,null,500015041,Q1824249
+746,René,Stengel,1879,1926,Hallstatt,Kaltenleutgeben,M,null,null,null,AT,null,500173843,Q109886797
+747,Carl,Schmoll von Eisenwerth,1879,1947,Vienna,Braunau am Inn,M,2,2,2,DE,null,500110994,Q1732873
+748,Adolf,Zdrazila,1868,1942,Poruba,Opava,M,1,1,1,CZ,null,NULL,Q8182598
+749,Marie,Magyar,1854,1942,Vienna,Vienna,F,null,null,null,AT,null,NULL,Q110082190
+750,Ludwig,Machalski,1879,1934,null,null,F,null,null,null,null,null,NULL,null
+751,Władisław,Slewiński,1856,1918,Nowy Białynin,Paris,M,null,null,null,PL,null,500023982,Q568856
+752,Josef,Müllner,1879,1968,Baden bei Wien,Vienna,M,null,null,null,AT,null,500194934,Q1490289
+753,Josef,Tautenhayn,1837,1911,Vienna,Vienna,M,null,null,null,AT,null,NULL,null
+754,Hugo Franz,Kirsch,1873,1961,Hejnice,Vienna,M,null,null,null,AT,null,500357506,Q1533139
+755,Leopold,Bauer,1872,1938,Jägerndorf,Vienna,M,null,null,null,AT,null,500028202,Q87071
+756,Leopold,Stolba,1863,1929,Gaudenzdorf,Vienna,M,null,null,null,AT,null,500107207,Q28927594
+757,Josef,Plessner,null,null,null,null,M,null,null,null,null,null,NULL,null
+758,Ivan,Meštrović,1883,1962,Vrpolje,South Bend,M,null,null,null,HR,null,500019590,Q313828
+759,Alfonso,Canciani,1863,1955,Cormons,Trieste,M,null,null,null,IT,null,500427436,Q1421326
+760,Ludwig Heinrich,Jungnickel,1881,1965,Wunsiedel,Vienna,M,1,1,1,DE,null,500002313,Q1411425
+761,Wunibald,Deininger,1879,1963,Vienna,Salzburg,M,null,null,null,AT,null,500251443,Q2595066
+762,Stephan,Filipkiewicz,1879,1944,Tarnów,Mauthausen,M,null,null,null,PL,null,500097050,Q55132745
+763,Anton,Nowak,1865,1932,Maribor,Vienna,M,null,null,null,AT,null,500077730,Q18639100
+764,Ludwig,Vacatko,1873,1956,Vienna,Prague,M,null,null,null,AT,null,137514905,Q12034263
+765,Oswald,Roux,1880,1961,Vienna,Vienna,M,null,null,null,AT,null,500190771,Q2036454
+766,Stanislaw,Pichor,1874,1923,null,null,M,null,null,null,PL,null,NULL,null
+767,Eduard,Witte,1871,null,Vienna,null,M,null,null,null,AT,null,NULL,null
+768,Julian,Falat,1853,1929,Tuligłowy,Bystrzyca Kłodzka,M,null,null,null,PL,null,500018013,Q1349858
+769,Franz,Jaschke,1862,1910,Vienna,Vienna,M,null,null,null,AT,null,NULL,Q1447459
+770,Stanisław,Podgórski,1882,1964,Kalush,Wiśnicz Nowy,M,null,null,null,PL,null,NULL,Q2331439
+771,Claudi,Castelucho Diana,1870,1927,Barcelona,Paris,M,3,3,3,ES,null,500035809,Q354830
+772,Ferdinand,Kruis,1869,1944,Písek,Innsbruck,M,null,null,null,AT,null,NULL,Q1405522
+773,Alfred,Offner,1879,1947,Chernivtsi,Poběžovice,M,1,1,1,AT,null,NULL,Q34662030
+774,Samuel,Hirschenberg,1865,1908,Łódź,Jerusalem,M,null,null,null,PL,null,500091311,Q594345
+775,Józef,Krasnowolski,1879,1939,Kwidzyń,Cracow,M,null,null,null,PL,null,NULL,Q6320557
+776,Franz,Gelbenegger,1875,1933,Vienna,Vienna,M,null,null,null,AT,null,500501921,Q94910034
+777,Bronisław,Pelczarski,1878,1951,null,null,M,null,null,null,null,null,NULL,Q96099406
+778,Oleksa,Novakivs'ky,1872,1935,Vinnytsia,Lviv,M,null,null,null,UA,null,500121070,Q4321871
+779,Franz,Hohenberger,1867,1941,Vienna,Vienna,M,null,null,null,AT,null,500026354,Q19962930
+780,Ludwig,Rösch,1865,1940,Vienna,Vienna,M,null,null,null,AT,null,500002924,Q21441779
+781,Friedrich,Ahlers-Hestermann,1883,1973,Hamburg,Berlin,M,2,1,2,DE,null,500074940,Q1458043
+782,Helene,Albiker,1878,1952,Prague,Ettlingen,F,1,1,1,DE,null,NULL,Q94761058
+783,Heinrich,Altherr,1878,1947,Basel,Zurich,M,1,1,1,CH,null,500083321,Q321284
+784,Ernst,Altmann,null,null,null,null,M,null,null,null,null,null,NULL,null
+785,Ernst,Ascher,1888,1953,Prague,null,M,2,2,2,null,null,NULL,Q110183579
+786,Heinrich,Baden,1887,1954,Bremen,Sankt Magnus,M,1,1,1,DE,null,NULL,Q1600006
+787,Ludwig,Bartning,1876,1956,Hamburg,Berlin,M,null,null,null,DE,null,500152235,Q24205647
+788,Josef,Bató,1888,1966,Budapest,London,M,1,1,1,HU,null,500154203,Q21464233
+789,Heinrich,Beecke,1877,1954,Strasburg,Strasburg,M,3,3,3,DE,null,NULL,Q13099287
+790,Frank Louis,Behrens,1883,1945,Biel,Biel,M,null,null,null,CH,null,500104268,Q28924419
+791,Charlotte,Corinth,1880,1967,Berlin,New York,F,1,1,1,DE,null,500008039,Q215045
+792,Rüdiger,Berlit,1883,1939,Leipzig,Leipzig,M,null,null,null,DE,null,500090008,Q22042679
+793,Benno,Berneis,1883,1916,Fürth,France,M,3,2,3,DE,null,NULL,Q817911
+794,Otto,Beyer,1885,1962,Kattowitz,Berlin,M,null,null,null,DE,null,500485751,Q15837877
+795,Hermann,Billing,1867,1946,Karlsruhe,Karlsruhe,M,null,null,null,DE,null,500082754,Q92016
+796,Richard,Birnstengel,1881,1968,Dresden,Dresden,M,null,null,null,DE,null,NULL,Q2149079
+797,Emil,Bizer,1881,1957,Pforzheim,Badenweiler,M,null,null,null,DE,null,500069036,Q1335882
+798,Philipp,Bohle,1878,null,Weimar,null,M,null,null,null,DE,null,NULL,null
+799,Robert,Boninger,1869,1935,London,Dusseldorf,M,1,1,1,DE,null,500083412,Q24035186
+800,Georg,Brandes,1878,1961,Hanover,Berlin,M,1,1,1,DE,null,500406325,null
+801,Hans,Brasch,1882,1973,Karlsruhe,Murrhardt,M,2,1,2,DE,null,NULL,Q1578813
+802,Erich,Buchwald-Zinnwald,1884,1972,Dresden,Krefeld,M,null,null,null,DE,null,500423377,Q21415786
+803,Agnes von,Bülow,1884,null,Hamburg,null,F,1,1,1,DE,null,NULL,Q95208108
+804,Ernst,Burmester,1877,1917,Ratzeburg,null,M,1,1,1,DE,null,500200929,Q64098261
+805,Erich,Büttner,1889,1936,Berlin,Freiburg im Breisgau,M,1,1,1,DE,null,118664778,Q84468
+806,Karl,Caspar,1879,1956,Friedrichshafen,Brannenburg,M,2,1,2,DE,null,500015889,Q317202
+807,Maria,Caspar-Filser,1878,1968,Riedlingen,Brannenburg,F,2,1,2,DE,null,500031247,Q545965
+808,Ernst,Christiansen,1881,1918,Husum,null,M,null,null,null,DE,null,NULL,Q94847975
+809,Anton,Cilio-Jensen,1875,1959,null,null,M,null,null,null,DE,null,NULL,null
+810,Johann Vincenz,Cissarz,1873,1942,Gdańsk,Frankfurt am Main,M,2,2,2,DE,null,500110057,Q1451551
+811,Max,Clarenbach,1880,1952,Neuss,Cologne,M,5,2,5,DE,null,500002069,Q87233
+812,Wilhelm,Claus,1882,1914,Breslau,Paris,M,3,2,3,PL,null,NULL,Q2572263
+813,null,Davidson,null,null,null,null,null,null,null,null,null,null,NULL,null
+814,August,Deusser,1870,1942,Cologne,Konstanz,M,2,2,2,DE,null,500015603,Q122979
+815,Ernst Richard,Dietze,1880,1961,Obermeisa,Waging am See,M,3,1,3,DE,null,NULL,Q55670391
+816,Karl,Dillinger,1882,1941,Karviná,Dirmstein,M,null,null,null,DE,null,NULL,Q15859532
+817,Hans,Dornbach,1885,1952,Dusseldorf,Lippstadt,M,2,2,2,DE,null,NULL,Q15456978
+818,Ferdinand,Dorsch,1875,1938,Pécs,Dresden,M,2,2,2,DE,null,500135624,Q15119625
+819,Richard,Dreher,1875,1932,Dresden,Pillnitz,M,3,1,3,DE,null,500090117,Q1702272
+820,Johann Georg,Dreydorff,1873,1935,Leipzig,Krefeld,M,null,null,null,DE,null,NULL,null
+821,Hermann,Ebers,1881,1955,Leipzig,Weilheim,M,null,null,null,DE,null,500136736,Q52063731
+822,Josef,Eberz,1880,1942,Limburg an der Lahn,Munich,M,2,1,2,DE,null,500001465,Q1704514
+823,Max,Eckener,null,null,null,null,M,null,null,null,null,null,NULL,null
+824,Pauline,Eigner-Püttner,1872,1960,Schwandorf in Bayern,Maxlrain,F,1,1,1,DE,null,500137032,null
+825,Friedrich,Fehr,1862,1927,Werneck,Polling bei Weilheim,M,3,3,3,DE,null,500138229,Q1386074
+826,Emil,Feigerl,1877,1944,null,null,M,1,1,1,null,null,NULL,null
+827,Eugen,Feiks,1878,1939,Kaposvár,Budapest,M,3,2,5,HU,null,500423254,Q997782
+828,Carl Friedrich,Felber,1880,1932,Wädenswil,Dachau,M,1,1,1,CH,null,500138260,Q1037736
+829,Helene,Funke,1869,1957,Chemnitz,Vienna,F,1,1,1,DE,null,500140303,Q1601962
+830,Ludwig,Wieden,1869,1947,Květná,Gmunden,M,null,null,null,AT,null,500181406,Q38085403
+831,Eugenie,Breithut-Munk,1867,1915,Vienna,Vienna,F,null,null,null,AT,null,NULL,Q26207548
+832,Artist,Example,null,null,null,null,null,null,null,null,null,null,NULL,null
+833,Adolf Izrailovich,Milman,1888,1930,Chişinău,Paris,M,null,null,null,RU,null,500164123,Q4293803
+834,Wilhelm,Gallhof,1878,1918,Iserlohn,null,M,1,1,1,DE,null,500081750,Q15728108
+835,Oskar,Gawell,1888,1955,Poznań,Vienna,M,null,null,null,PL,null,500064187,Q2033684
+836,August,Gebhard,1880,1945,Geberschweier,Königsbach-Stein,M,1,1,1,DE,null,NULL,Q94788869
+837,Alexander,Gerbig,1878,1948,Suhl,Suhl,M,1,1,1,DE,null,500059612,Q52150645
+838,Emil Von,Gerliczy,1871,1924,Ljubljana,Zurich,M,2,1,2,DE,null,500141403,Q1337094
+839,Hermann,Goebel,1885,1945,Dormagen,Dobel,M,null,null,null,DE,null,500142360,Q1611222
+840,Hans,Gott,1883,1974,Munich,Munich,M,null,null,null,DE,null,500354398,Q15819411
+841,Julius,Graumann,1878,1944,Fürth,Auschwitz,M,null,null,null,DE,null,500099730,Q52156263
+842,Vasily,Rozhdestvensky,1884,1963,Tula,Moscow,M,null,null,null,RU,null,Russian painter 1884-1963,Q4396188
+843,Arthur,Grimm,1883,1948,Mudau,Mudau,M,1,1,1,DE,null,500102485,Q709581
+844,Oskar H.,Hagemann,1888,1984,Bohemia,Karlsruhe,M,1,1,1,DE,null,500104967,Q17125012
+845,Eugen,Hamm,1885,1930,Apolda,Berlin,M,1,1,1,DE,null,500041983,Q1334034
+846,Carl Christoph,Hartig,1888,1975,Davos,Dusseldorf,M,null,null,null,DE,null,NULL,Q105395238
+847,Bernhard,Hasler,1884,1945,Strachocin,Bad Oldesloe,M,1,1,1,DE,null,500332710,Q825177
+848,Albert,Haueisen,1872,1954,Stuttgart,Kandel,M,2,1,2,DE,null,500013292,Q1238984
+849,Franz,Heckendorf,1888,1962,Berlin,Munich,M,2,1,2,DE,null,500000096,Q1447132
+850,Hans von,Heider,1867,1952,Munich,Ulm,M,2,2,2,DE,null,500144839,Q47483171
+851,Ernst,Heilemann,1870,1936,Berlin,Kitchener,M,null,null,null,DE,null,500069739,Q1358553
+852,August,Heitmüller,1873,1935,Gümmer,Merano,M,null,null,null,DE,null,500345717,Q761747
+853,Alfred-Hermann,Helberger,1871,1946,Eberstadt,Berlin,M,2,1,3,DE,null,500144950,Q2645133
+854,Rudolf,Hellwag,1867,1942,Innsbruck,Berlin,M,3,3,3,AT,null,500019702,Q2172914
+855,Adolf Edward,Herstein,1869,1932,Warsaw,Berlin,M,1,1,1,PL,null,500470712,Q361348
+856,Ferdinand,Herwig,1884,1959,Hamburg,Stuttgart,M,null,null,null,DE,null,NULL,Q95716807
+857,Heinrich,Heuser,1887,1967,Stralsund,Berlin,M,2,1,2,DE,null,500072450,Q20744110
+858,Heinrich,Heyne,1869,1943,Oława,Munich,M,null,null,null,DE,null,NULL,Q94924067
+859,Adolf,Hildenbrand,1881,1944,Löffingen,Pforzheim,M,null,null,null,DE,null,500065365,Q362156
+860,Wil,Howard,1879,1945,Leipzig,Mittenwald,M,null,null,null,DE,null,500058031,Q1558488
+861,W. Franz,Jäger,1861,1928,Frýdlant,Raspenava,M,null,null,null,CZ,null,500147991,Q20668972
+862,Arthur,Illies,1870,1952,Hamburg,Lüneburg,M,1,1,1,DE,null,500023053,Q709984
+863,V. I.,Pozharsky,null,null,null,null,M,null,null,null,null,null,500460936,null
+864,Ernst,Isselmann,1885,1916,Rees,Rees,M,3,2,3,DE,null,NULL,Q1358825
+865,Gustav,Kampmann,1859,1917,Boppard am Rhein,Bad Godesberg,M,2,2,2,DE,null,500080465,Q1556055
+866,Viktor,Savinkov,1886,1954,null,null,M,null,null,null,RU,null,RU,null
+867,Friedrich von,Keller,1840,1914,Neckarweihingen,Ludwigsburg,M,null,null,null,DE,null,500025063,Q5503971
+868,Hans,Keller,1884,1983,Zurich,Paris,M,null,null,null,CH,null,NULL,null
+869,Hans,Keller,1884,1983,Zurich,Paris,M,null,null,null,CH,null,500103846,Q59637542
+870,A.M.,Samojlova,null,null,null,null,F,null,null,null,RU,null,NULL,null
+871,Walther,Klemm,1883,1957,Karlovy Vary,Weimar,M,2,1,2,DE,null,500069354,Q25942
+872,Else,Klossowski,1886,1969,Breslau,Paris,F,1,1,1,null,null,NULL,Q3633193
+873,Michel,Koch,1853,1927,Edingen-Neckarhausen,Mannheim,M,null,null,null,DE,null,NULL,Q94319527
+874,Peter,Koch,1874,1956,Deidesheim,Gimmeldingen,M,null,null,null,DE,null,500382002,Q31509033
+875,Max,Kowarzik,1875,1918,Berlin,Froyennes,M,null,null,null,DE,null,NULL,Q110213982
+876,Hugo,Krayn,1885,1919,Berlin,Berlin,M,null,null,null,DE,null,500056121,Q1635331
+877,Erna,Krüger,1883,1973,Wittenberg,Osterode am Harz,F,null,null,null,DE,null,NULL,Q108546123
+878,Josef II,Kühn,1872,1933,Mannheim,Munich,M,null,null,null,DE,null,500099032,null
+879,Antonina,Sofronova,1892,1966,Droskovo,Moscow,F,null,null,null,RU,null,500110836,Q4430088
+880,Erich,Kuithan,1875,1917,Bielefeld,Jena,M,null,null,null,DE,null,500151069,Q1352642
+881,Eva,Kusch,null,null,null,null,F,null,null,null,null,null,NULL,null
+882,Lodewijk,Schelfhout,1881,1943,null,null,M,null,null,null,NL,null,500015799,null
+883,Eva,Kusch,null,null,null,null,F,null,null,null,null,null,NULL,null
+884,Wilhelm,Laage,1868,1930,Stellingen,Reutlingen,M,2,1,2,DE,null,500103172,Q2573869
+885,L.G.,Turchenko,null,null,null,null,null,null,null,null,null,null,NULL,null
+886,Georg,Lebrecht,1875,1945,Świdnica,Berlin,M,1,1,1,DE,null,500093494,Q1505137
+887,Fritz,Lederer,1878,1949,Kynšperk nad Ohři,Cheb,M,null,null,null,CZ,null,500334649,Q14827797
+888,Wilhelm,Legler,1875,1951,Pazin,Angern,M,2,2,2,AT,null,500423269,Q39159011
+889,Wilhelm,Mann,1882,1957,Altona,null,M,1,1,1,DE,null,NULL,null
+890,Ewald,Manz,1886,1960,Hanover,Halle,M,1,1,1,DE,null,NULL,Q94809493
+891,Hans,Meid,1883,1957,Pforzheim,Ludwigsburg,M,1,1,1,DE,null,500016885,Q1558798
+892,Wolfgang,Merkel,1883,1918,Rostock,Solve le Chateau,M,1,1,1,DE,null,NULL,null
+893,Bruno,Mewes,1886,null,null,null,M,null,null,null,null,null,NULL,null
+894,Otto,Mewes,null,null,null,null,M,1,1,1,null,null,NULL,null
+895,Friedrich,Missfeldt,1874,1969,Kiel,Schleswig,M,2,1,2,DE,null,NULL,Q1461170
+896,Otto,Modersohn,1865,1943,Soest,Fischerhude,M,4,3,4,DE,null,500016713,Q71425
+897,Otto,Moller,1883,1964,Schmiedefeld (Lichtetal),Berlin,M,null,null,null,DE,null,500065481,Q2040016
+898,Hans,Nadler,1879,1958,Elsterwerda,Gröden (Brandenburg),M,null,null,null,DE,null,500075407,Q1581466
+899,Paul,Neresheimer,1885,1933,Amsterdam,Munich,M,null,null,null,NL,null,NULL,null
+900,Max,Neumann,1885,1973,Königsberg,Berlin,M,1,1,1,DE,null,500377855,Q95007679
+901,Franz,Nölken,1884,1918,Hamburg,La Capelle,M,null,null,null,DE,null,500159735,Q323242
+902,Ernst Benedikt,Noether,1864,1939,Mannheim,Mannheim,M,null,null,null,DE,null,500076986,Q41275097
+903,Paul,Oberhoff,1884,1960,Iserlohn,Dresden,M,1,1,1,DE,null,NULL,Q29877462
+904,Ernst,Odefey,1882,1964,Hamburg,Hamburg,M,null,null,null,DE,null,500077867,Q36977746
+905,Emil,Orlik,1870,1932,Prague,Berlin,M,5,4,6,CZ,null,500005216,Q379150
+906,Heinrich,Otto,1858,1923,Wernswig,Dusseldorf,M,1,1,1,DE,null,500358524,Q1598444
+907,Alfred,Partikel,1888,1946,Gołdap,Ahrenshoop,M,null,null,null,DE,null,500008069,Q111073
+908,Paul,Paeschke,1875,1943,Berlin,Berlin,M,1,1,1,DE,null,500000034,Q21289616
+909,Georg,Poppe,1883,1963,Wartha (Niederschlesien Region),Frankfurt am Main,M,null,null,null,DE,null,NULL,Q87915562
+910,Max,Pretzfelder,1888,1950,Nuremberg,Los Angeles,M,null,null,null,DE,null,DE,Q15431257
+911,Max,Rappaport,1884,1924,Vienna,Berlin,M,1,1,1,null,null,NULL,Q18508531
+912,Martha,Reich,null,null,null,null,F,null,null,null,DE,null,NULL,null
+913,Fritz,Rentsch,1867,1946,Dresden,Naumburg,M,null,null,null,DE,null,NULL,Q95007006
+914,Heinrich,Richter-Berlin,1884,1981,Berlin,Berlin,M,2,2,4,DE,null,NULL,Q1598599
+915,Paul,Rößler,1873,1957,Leipzig,Heidelberg,M,null,null,null,DE,null, master draughtsman,Q2062108
+916,Georg Walter,Rossner,1885,1972,Leipzig,Gundelsby,M,1,1,1,DE,null,500189935,Q19502383
+917,Edwin,Scharff,1887,1955,Neu-Ulm,Hamburg,M,2,1,2,DE,null,500069708,Q535048
+918,Rudolph,Scheffler,1884,1973,Zwickau,Old Lyme,M,1,1,1,DE,null,500080104,Q46997086
+919,Fritz,Scherer,1877,1929,Freiburg im Breisgau,Munich,M,null,null,null,DE,null,500170104,Q52911563
+920,Walter,Schimmelpfeng,null,null,null,null,M,null,null,null,null,null,NULL,null
+921,Theodor,Schindler,1870,1950,Malsch,Malsch,M,1,1,1,DE,null,NULL,Q2418232
+922,Adolf,Schinnerer,1876,1949,Schwarzenbach an der Saale,Haimhausen,M,1,1,1,DE,null,500354397,Q364106
+923,Paul von,Schlippenbach,1869,1933,Olaine,Berlin,M,null,null,null,DE,null,500170292,Q30088351
+924,Hermann,Schlittgen,1859,1930,Roitzsch,Wasserburg am Inn,M,2,1,2,DE,null,500048118,Q1612600
+925,Alfred,Schmidt,1867,1956,Dresden,Munich,M,1,1,1,DE,null,NULL,Q94900840
+926,Wilhelm,Schmurr,1878,1959,Hagen,Dusseldorf,M,3,2,3,DE,null,500084646,Q2574928
+927,Wilhelm,Schocken,1874,1958,Pleszew,Tel Aviv-Jaffa,M,2,1,2,DE,null,NULL,Q110136827
+928,Martha,Schrag,1870,1957,Borna,Chemnitz,F,null,null,null,DE,null,NULL,Q1485012
+929,Lili,Schüller,1888,1971,null,null,F,null,null,null,AT,null,NULL,null
+930,Karl,Schwalbach,1885,1983,Mainz,Munich,M,2,1,2,DE,null,500059356,Q39439615
+931,Rudolf,Sieck,1877,1957,Rosenheim,Prien am Chiemsee,M,2,2,2,DE,null,500358870,Q1536444
+932,Rudolf,Siegmund,1881,1973,Bürgel,Idstein,M,1,1,1,DE,null,NULL,null
+933,Alexander Leo,Soldenhoff,1882,1951,Geneva,Zurich,M,1,1,1,CH,null,500027712,Q38005049
+934,William,Straube,1871,1954,Berlin,Neufrach,M,2,2,2,DE,null,500068248,Q1349415
+935,Hans,Sutter,1887,1916,Mainz,Maurepas Somme,M,1,1,1,DE,null,500176520,Q50353342
+936,Max,Thedy,1858,1924,Munich,Polling bei Weilheim,M,2,2,2,DE,null,500105499,Q1453328
+937,Heinrich,Uhl,1882,1915,Altenteich,Russia,M,1,1,1,DE,null,NULL,Q98782937
+938,Hans,Unger,1872,1936,Bautzen,Dresden,M,null,null,null,DE,null,500104677,Q5650790
+939,Giuseppe,Sacheri,1863,1950,Genoa,Pianfei,M,null,null,null,IT,null,500045922,Q30332134
+940,Julien-Gustave,Gagliardini,1846,1927,Mulhouse,Paris,M,3,3,3,FR,null,500045221,Q3189516
+941,Julius,Rolshoven,1858,1930,Detroit,New York,M,1,1,1,US,null,500032478,Q3189870
+942,Carlotta,Sacchetti,1862,1934,Pavia,Milan,F,null,null,null,IT,null,NULL,Q111609173
+943,Luigi,Rosa,1850,1919,Venice,Rome,M,null,null,null,IT,null,NULL,Q3840097
+944,Luigi,Serralunga,1880,1940,Turin,Turin,M,null,null,null,IT,null,500171450,Q37142430
+945,Giorgio,Lucchesi,1855,1941,Lucca,Lucca,M,null,null,null,IT,null,500078115,Q15996465
+946,Paul,Vahrenhorst,1880,1951,Kuldīga,Maising,M,null,null,null,DE,null,NULL,Q55108039
+947,Anita,Perna,null,null,null,null,F,null,null,null,null,null,NULL,null
+948,Hans,Völcker,1865,1944,Pyrzyce,Wiesbaden,M,null,null,null,DE,null,500178650,Q1262643
+949,Erwin,Vollmer,1884,1973,Berlin,Rehlingen,M,1,1,1,DE,null,500359072,Q1363558
+950,Evarist Adam,Weber,1887,1968,Aachen,Dießen am Ammersee,M,null,null,null,DE,null,500099955,Q52444250
+951,Franz,Weih,1877,null,Baden-Baden,null,M,null,null,null,DE,null,NULL,null
+952,Kurt,Witte,1882,1959,Schlüsselburg,Hanover,M,null,null,null,DE,null,NULL,Q41333051
+953,Karl,Wohlrab,1873,1959,Leipzig,Lugano,M,null,null,null,DE,null,NULL,Q27508437
+954,Sophie,Wolff,1845,1944,Berlin,Berlin,F,2,2,2,DE,null,NULL,Q112763922
+955,Hermann,Zeillinger,1882,1933,Straß in Steiermark,null,M,null,null,null,AT,null,NULL,null
+956,Walter,Zeising,1876,1933,Leipzig,Dresden,M,1,1,1,DE,null,500183092,Q85301344
+957,Leni,Zimmermann-Heitmüller,1879,null,Stettin,Hanover,F,null,null,null,DE,null,NULL,null
+958,Charles,Fayod,1857,1932,Bex,Lausanne,M,null,null,null,CH,null,NULL,Q28871779
+959,Giovanni Battista,Carpanetto,1863,1928,Turin,Turin,M,null,null,null,IT,null,500344431,Q3766613
+960,Violetta,Dunn Gardner,null,null,null,null,F,null,null,null,null,null,NULL,null
+961,Giuseppe,Boschetto,1841,1918,Naples,Naples,M,null,null,null,IT,null,500083073,Q13178497
+962,Antonio,Grinzato,null,null,null,null,M,null,null,null,null,null,NULL,null
+963,Giuseppe,Mazzei,1867,1944,Portoferraio,Rijeka,M,null,null,null,IT,null,NULL,Q22069479
+964,Vincenzo,Irolli,1860,1945,Naples,Naples,M,null,null,null,IT,null,500016859,Q4013331
+965,Luigi,Bocca,1872,1930,Vigevano,Vigevano,M,null,null,null,IT,null,NULL,Q113562190
+966,Ferdinando-Giuseppe,Piana,1864,1956,Ceriana,Bordighera,M,null,null,null,IT,null,500179730,Q3770535
+967,Giannino,Castiglioni,1884,1971,Milan,Lierna,M,1,1,1,IT,null,500096596,Q1122412
+968,Napoleone,Gradi,1860,1949,Santa Cristina e Bissone,Brusimpiano,M,1,1,1,IT,null,NULL,Q55228436
+969,Roberto,Fontana,1844,1907,Milan,Milan,M,null,null,null,IT,null,500017417,Q10363343
+970,Carlo,Vittori,1881,1943,Cremona,Cremona,M,null,null,null,IT,null,NULL,Q61993534
+971,Giuseppe,Omio,1881,1918,Lovere,Milan,M,2,2,2,IT,null,NULL,null
+972,Rudolf,Möller,1881,1967,Schmiedefeld (Lichtetal),Lörrach,M,1,1,1,DE,null,NULL,Q2173473
+973,Salvatore,Marchesi,1852,1926,Parma,Parma,M,null,null,null,IT,null,500046180,Q16030888
+974,Federico,Maragliano,1873,1952,Genoa,Genoa,M,null,null,null,IT,null,NULL,Q110175654
+975,Andrea Nicolò,Brentan,null,null,null,null,M,null,null,null,null,null,NULL,null
+976,Alfred,Smith,1853,1942,Bordeaux,Bordeaux,M,2,2,2,FR,null,500172608,Q4723449
+977,Filadelfo,Simi,1849,1923,Stazzema,Florence,M,null,null,null,IT,null,500073086,Q3744913
+978,Raffaele,Armenise,1852,1925,Bari,Milan,M,null,null,null,IT,null,500017430,Q3929000
+979,Oreste,Da Moli,1856,1921,Piove di Sacco,Piove di Sacco,F,null,null,null,IT,null,500357903,null
+980,Maria,Tansini,null,null,null,null,F,null,null,null,null,null,NULL,null
+981,Luigi de,Servi,1863,1945,Lucca,Lucca,M,null,null,null,IT,null,500171486,Q26720349
+982,Riccardo,Galli,1839,1914,Nice,null,M,1,1,1,IT,null,500069901,Q42163544
+983,Ottmar,Begas,1878,1931,Rome,Naples,M,null,null,null,DE,null,NULL,Q2037848
+984,Franz Theodor,Aerni,1853,1918,Aarburg,Aarburg,M,null,null,null,CH,null,500011101,Q19900834
+985,Emilio,Mazzoni Zarini,1869,1949,Florence,Florence,M,1,1,1,IT,null,NULL,Q109936728
+986,Carlo,Arpini,1866,1922,Ancona,Monza,M,null,null,null,IT,null,NULL,Q85618467
+987,Antonio,Barzaghi-Cattaneo,1834,1922,Lugano,Lugano,M,null,null,null,CH,null,500124702,Q599825
+988,Giulio,Genovese,null,1928,Venice,null,M,null,null,null,IT,null,NULL,null
+989,Théobald,Chartran,1849,1907,Besançon,Neuilly-sur-Seine,M,null,null,null,FR,null,500015217,Q922670
+990,Giuseppe,Pennasilico,1861,1940,Naples,Geneva,M,null,null,null,IT,null,500000718,Q13178494
+991,Giovanni,Cavalli,1865,1932,Novara,Turin,M,1,1,1,IT,null,NULL,Q110081632
+992,Antonio,Baronio,1850,1920,Vogogna,Vogogna,M,null,null,null,IT,null,NULL,null
+993,Baldassare,Longoni,1876,1956,Dizzasco,Como,M,null,null,null,IT,null,500199604,Q38036162
+994,Ruggero,Focardi,1864,1934,Florence,Quercianella,M,null,null,null,IT,null,500074632,Q20011855
+995,Felice,Zanelli,null,null,null,null,M,null,null,null,null,null,NULL,null
+996,Antonio,Rocchetti-Torres,1851,1934,Palermo,Palermo,M,null,null,null,IT,null,NULL,null
+997,Ponziano,Loverini,1845,1929,Gandino,Gandino,M,null,null,null,IT,null,500013489,Q3908321
+998,Cesare,Ciani,1854,1925,Florence,Florence,M,null,null,null,IT,null,500097011,Q3665382
+999,Giovanni,Fattori,1825,1908,Livorno,Florence,M,null,null,null,IT,null,500023835,Q710089
+1000,Italo,Nunes-Vais,1860,1932,Tunis,Florence,M,null,null,null,IT,null,500079071,Q52150303
+1001,Tomaso,Baldini,1870,1925,Florence,Pescia,M,null,null,null,IT,null,NULL,null
