@@ -27,7 +27,7 @@ def timer(description: str, logger=None):
 
 
 class RAGPipeline:
-    def __init__(self, config_path: str = "config.yaml"):
+    def __init__(self, config_path: str = "rag/config.yaml"):
         self.config_path = config_path
         self.logger = setup_logger("RAGPipeline")
 

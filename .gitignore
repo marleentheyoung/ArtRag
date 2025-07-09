@@ -2,3 +2,9 @@
 rag-art/data/*.pkl
 rag-art/qdrant_storage/
 *.sqlite
+.DS_Store
+__pycache__
+data/real.pkl
+data/real_artist.pkl
+interface_art_pipe.py
+qdrant_storage

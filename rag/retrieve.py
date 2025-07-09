@@ -3,11 +3,11 @@ import yaml
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
-from load_models import setup_logger
+from rag.load_models import setup_logger
 
 
 class DocumentRetriever:
-    def __init__(self, config_path: str = "config.yaml", model=None, qdrant_client=None):
+    def __init__(self, config_path: str = "rag/config.yaml", model=None, qdrant_client=None):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         

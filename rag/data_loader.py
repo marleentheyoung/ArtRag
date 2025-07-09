@@ -4,11 +4,11 @@ import hashlib
 import os
 from typing import Dict, List, Any, Optional, Iterator
 import numpy as np
-from load_models import setup_logger
+from rag.load_models import setup_logger
 
 
 class DataLoader:
-    def __init__(self, config_path: str = "config.yaml"):
+    def __init__(self, config_path: str = "rag/config.yaml"):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
