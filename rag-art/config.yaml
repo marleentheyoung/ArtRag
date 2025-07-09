@@ -1,0 +1,29 @@
+embedding_model_name: "Qwen/Qwen3-Embedding-0.6B"
+generator_model_name: "Qwen/Qwen2.5-1.5B-Instruct"
+
+# ./data/dummy.pkl
+artwork_dataset_path: ./data/real.pkl
+artist_dataset_path: ./data/real_artist.pkl
+
+
+qdrant_path: ./qdrant_storage
+collection_name: artwork_collection
+local_files_only: true
+retrieval_top_k: 5
+
+max_generation_tokens: 250
+do_sample: true
+temperature: 0.7
+top_p: 0.9
+repetition_penalty: 1.2
+
+use_clustering: false
+n_clusters: 8
+top_clusters_for_query: 3
+
+device: auto  # Options: auto, cuda, mps, cpu
+
+# embedding_device: cuda  # Force 
+generator_device: cpu   # Force
+
+torch_dtype: auto 
