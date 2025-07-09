@@ -3,11 +3,11 @@ import yaml
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
-from rag.load_models import setup_logger
+from load_models import setup_logger
 
 
 class DocumentRetriever:
-    def __init__(self, config_path: str = "rag/config.yaml", model=None, qdrant_client=None):
+    def __init__(self, config_path: str = "config.yaml", model=None, qdrant_client=None):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
@@ -61,6 +61,23 @@ class DocumentRetriever:
         else:
             return Filter(must=conditions)
     
+    def _extract_document_info(self, result) -> Dict[str, Any]:
+        doc = {
+            'text': result.payload['text'],
+            'metadata': result.payload['metadata'],
+            'doc_id': result.payload['doc_id'],
+            'doc_type': result.payload['doc_type'],
+            'score': result.score
+        }
+        
+        if result.payload['doc_type'] == 'artwork':
+            picture_id = result.payload['metadata'].get('picture_id')
+            # print(f"DEBUG: Artwork doc_id={result.payload['doc_id']}, picture_id from metadata={picture_id}")
+            if picture_id:
+                doc['picture_id'] = picture_id
+        
+        return doc
+    
     def retrieve_clustered(self, query: str, top_k: int = None, top_clusters: int = None, 
                           doc_types: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         if top_k is None:
@@ -88,14 +105,8 @@ class DocumentRetriever:
         
         retrieved_docs = []
         for result in results:
-            doc = {
-                'text': result.payload['text'],
-                'metadata': result.payload['metadata'],
-                'doc_id': result.payload['doc_id'],
-                'doc_type': result.payload['doc_type'],
-                'score': result.score,
-                'cluster_id': self.clusterer.doc_to_cluster.get(result.payload['doc_id'], -1)
-            }
+            doc = self._extract_document_info(result)
+            doc['cluster_id'] = self.clusterer.doc_to_cluster.get(result.payload['doc_id'], -1)
             retrieved_docs.append(doc)
         
         return retrieved_docs
@@ -120,13 +131,7 @@ class DocumentRetriever:
         
         retrieved_docs = []
         for result in results:
-            doc = {
-                'text': result.payload['text'],
-                'metadata': result.payload['metadata'],
-                'doc_id': result.payload['doc_id'],
-                'doc_type': result.payload['doc_type'],
-                'score': result.score
-            }
+            doc = self._extract_document_info(result)
             retrieved_docs.append(doc)
         
         return retrieved_docs
