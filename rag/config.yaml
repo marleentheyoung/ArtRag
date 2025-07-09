@@ -23,7 +23,7 @@ top_clusters_for_query: 3
 
 device: auto  # Options: auto, cuda, mps, cpu
 
-embedding_device: mps  # Force 
-generator_device: mps   # Force
+# embedding_device: cuda  # Force 
+generator_device: cpu   # Force
 
 torch_dtype: auto 
