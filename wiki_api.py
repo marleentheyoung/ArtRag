@@ -15,6 +15,7 @@ class ArtistWikiRAG:
     def load_artist_data(self):
         try:
             self.artist_df = pd.read_csv(self.csv_file_path)
+            self.artist_df['n.artist_name'] = self.artist_df['n.firstname'] + ' ' + self.artist_df['n.lastname']
             print(f"Loaded {len(self.artist_df)} artists from CSV")
         except FileNotFoundError:
             print(f"CSV file not found: {self.csv_file_path}")
@@ -63,8 +64,6 @@ class ArtistWikiRAG:
     def get_wiki_id_from_csv(self, artist_name: str) -> Optional[str]:
         if self.artist_df is None:
             return None
-
-        self.artist_df['n.artist_name'] = self.artist_df['n.firstname'] + ' ' + self.artist_df['n.lastname']
 
         exact_match = self.artist_df[self.artist_df['n.artist_name'].str.lower() == artist_name.lower()]
 
@@ -190,6 +189,7 @@ class ArtistWikiRAG:
 
             print("Step 2: Looking up Wikipedia ID...")
             wikidata = self.get_wiki_id_from_csv(artist_name)
+
             results['wikidata'] = wikidata
 
             if not wikidata:
@@ -225,7 +225,7 @@ if __name__ == "__main__":
     query = "Tell me about the early life of Picasso"
 
     rag_system = ArtistWikiRAG(
-        csv_file_path="ArtRag_ESSIR/artists1000_cleaned.csv",
+        csv_file_path="data/artists1000_cleaned.csv",
         ollama_url="http://localhost:11434"
     )
 
