@@ -4,11 +4,11 @@ import hashlib
 import os
 from typing import Dict, List, Any, Optional, Iterator
 import numpy as np
-from rag.load_models import setup_logger
+from load_models import setup_logger
 
 
 class DataLoader:
-    def __init__(self, config_path: str = "rag/config.yaml"):
+    def __init__(self, config_path: str = "config.yaml"):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
@@ -68,13 +68,21 @@ class DataLoader:
         
         embedding = self._extract_embedding(raw_doc)
         
+        # Get the original ID and use it as the document ID
+        original_id = raw_doc.get('id')
+        
+        if original_id:
+            doc_id = str(original_id)
+        else:
+            doc_id = f'{doc_type}_{idx}'
+        
         doc = {
-            'id': str(raw_doc.get('id', f'{doc_type}_{idx}')),
+            'id': doc_id,
             'text': text,
             'embedding': embedding,
             'content_hash': hashlib.md5(text.encode('utf-8')).hexdigest(),
             'doc_type': doc_type,
-            'metadata': self._extract_metadata(raw_doc, idx, doc_type)
+            'metadata': self._extract_metadata(raw_doc, idx, doc_type, original_id)
         }
         
         return doc
@@ -93,9 +101,23 @@ class DataLoader:
         
         return None
     
-    def _extract_metadata(self, doc_dict: Dict[str, Any], idx: int, doc_type: str) -> Dict[str, Any]:
-        excluded_fields = {'text', 'id', 'embeddings'}
-        metadata = {'original_index': idx, 'doc_type': doc_type}
+    def _extract_metadata(self, doc_dict: Dict[str, Any], idx: int, doc_type: str, original_id: Any = None) -> Dict[str, Any]:
+        # Only exclude text and embeddings, but preserve all other metadata including ID
+        excluded_fields = {'text', 'embeddings'}
+        metadata = {
+            'original_index': idx, 
+            'doc_type': doc_type
+        }
+        
+        # Add the original ID as picture_id for artwork documents
+        if original_id is not None:
+            if doc_type == 'artwork':
+                # Clean up picture_id to stop at .jpg
+                picture_id = str(original_id)
+                if '.jpg' in picture_id:
+                    picture_id = picture_id.split('.jpg')[0] + '.jpg'
+                metadata['picture_id'] = picture_id
+            metadata['original_id'] = str(original_id)
         
         for key, value in doc_dict.items():
             if key not in excluded_fields and value is not None:
@@ -127,6 +149,15 @@ class DataLoader:
         coverage = (with_embeddings / total_docs) * 100
         self.logger.info(f"Embedding coverage: {with_embeddings}/{total_docs} ({coverage:.0f}%)")
         
+        if documents:
+            sample_metadata_keys = set()
+            for doc in documents[:5]:  # Check first 5 documents
+                if doc.get('metadata'):
+                    sample_metadata_keys.update(doc['metadata'].keys())
+            
+            if sample_metadata_keys:
+                self.logger.info(f"Available metadata fields: {sorted(sample_metadata_keys)}")
+        
         if with_embeddings > 0:
             for doc in documents:
                 if doc['embedding'] is not None:
@@ -150,3 +181,27 @@ class DataLoader:
             return False
         except Exception:
             return False
+
+    
+    def get_document_by_picture_id(self, picture_id: str) -> Optional[Dict[str, Any]]:
+        """
+        Find a document by its picture_id (original ID for artworks)
+        """
+        documents = self.load_data()
+        for doc in documents:
+            if doc.get('metadata', {}).get('picture_id') == picture_id:
+                return doc
+        return None
+    
+    def get_all_picture_ids(self) -> List[str]:
+        """
+        Get all picture IDs from artwork documents
+        """
+        documents = self.load_data()
+        picture_ids = []
+        for doc in documents:
+            if doc.get('doc_type') == 'artwork':
+                picture_id = doc.get('metadata', {}).get('picture_id')
+                if picture_id:
+                    picture_ids.append(picture_id)
+        return picture_ids
