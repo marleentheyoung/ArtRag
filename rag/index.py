@@ -5,14 +5,14 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
 import os
 import warnings
-from rag.load_models import setup_logger
+from load_models import setup_logger
 
 warnings.filterwarnings("ignore", message="Local mode is not recommended for collections with more than 20,000 points")
 warnings.filterwarnings("ignore", message="Collection .* contains .* points")
 
 
 class DocumentIndexer:
-    def __init__(self, config_path: str = "rag/config.yaml"):
+    def __init__(self, config_path: str = "config.yaml"):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
