@@ -27,7 +27,7 @@ def timer(description: str, logger=None):
 
 
 class RAGPipeline:
-    def __init__(self, config_path: str = "rag/config.yaml"):
+    def __init__(self, config_path: str = "config.yaml"):
         self.config_path = config_path
         self.logger = setup_logger("RAGPipeline")
 
@@ -58,7 +58,7 @@ class RAGPipeline:
         
         if self.config.get('use_clustering', True):
             with timer("Clustering documents", self.logger):
-                force_recompute = force_reindex  # Also recompute clusters if forcing reindex
+                force_recompute = force_reindex  # recompute clusters if forcing reindex
                 cluster_info = self.clusterer.fit_clusters(documents, force_recompute=force_recompute)
                 self.logger.info(f"Clustering: {cluster_info['n_clusters']} clusters, {cluster_info['total_documents']} documents")
         else:
@@ -104,13 +104,15 @@ class RAGPipeline:
         print(f"\n--- Standard Retrieval ---")
         for i, doc in enumerate(results['standard'], 1):
             doc_type = doc.get('doc_type', 'unknown')
-            print(f"{i}. Score: {doc['score']:.3f} | Type: {doc_type} | {doc['text'][:80]}...")
+            picture_info = f" | Picture ID: {doc['picture_id']}" if doc.get('picture_id') else ""
+            print(f"{i}. Score: {doc['score']:.3f} | Type: {doc_type}{picture_info} | {doc['text'][:80]}...")
         
         print(f"\n--- Clustered Retrieval ---")
         for i, doc in enumerate(results['clustered'], 1):
             doc_type = doc.get('doc_type', 'unknown')
             cluster_id = doc.get('cluster_id', '?')
-            print(f"{i}. Score: {doc['score']:.3f} | Type: {doc_type} | Cluster: {cluster_id} | {doc['text'][:80]}...")
+            picture_info = f" | Picture ID: {doc['picture_id']}" if doc.get('picture_id') else ""
+            print(f"{i}. Score: {doc['score']:.3f} | Type: {doc_type} | Cluster: {cluster_id}{picture_info} | {doc['text'][:80]}...")
     
     def analyze_clusters(self):
         with timer("Cluster analysis", self.logger):
@@ -229,11 +231,13 @@ class RAGPipeline:
     def _print_response(self, query: str, response: str, retrieved_docs: list, query_type: str = "all"):
         print(f"\nQuery ({query_type}): {query}")
         print(f"\nAnswer: {response}")
+        
         print(f"\nRetrieved documents ({len(retrieved_docs)}):")
         for i, doc in enumerate(retrieved_docs, 1):
             doc_type = doc.get('doc_type', 'unknown')
             cluster_info = f" | Cluster: {doc['cluster_id']}" if 'cluster_id' in doc else ""
-            print(f"{i}. [{doc_type}] Score: {doc['score']:.3f}{cluster_info} | {doc['text'][:100]}...")
+            picture_info = f" | Picture ID: {doc['picture_id']}" if doc.get('picture_id') else ""
+            print(f"{i}. [{doc_type}] Score: {doc['score']:.3f}{cluster_info}{picture_info} | {doc['text'][:100]}...")
     
     def _print_citations_response(self, query: str, result: dict):
         print(f"\nQuery: {query}")
@@ -247,7 +251,8 @@ class RAGPipeline:
         print(f"\nDetailed Citations:")
         for citation in result['citations']:
             cluster_info = f" | Cluster: {citation['cluster_id']}" if 'cluster_id' in citation else ""
-            print(f"{citation['index']}. [{citation['doc_type']}] Score: {citation['score']:.3f}{cluster_info}")
+            picture_info = f" | Picture ID: {citation['picture_id']}" if citation.get('picture_id') else ""
+            print(f"{citation['index']}. [{citation['doc_type']}] Score: {citation['score']:.3f}{cluster_info}{picture_info}")
             print(f"   {citation['text_preview']}")
 
 
