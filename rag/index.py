@@ -98,7 +98,6 @@ class DocumentIndexer:
             except Exception:
                 pass
         
-        # Count by type
         type_counts = {}
         for doc in documents:
             doc_type = doc.get('doc_type', 'unknown')
@@ -150,7 +149,6 @@ class DocumentIndexer:
             info = self.client.get_collection(collection_name)
             count_result = self.client.count(collection_name)
             
-            # Get type breakdown
             type_counts = {}
             try:
                 scroll_result = self.client.scroll(
