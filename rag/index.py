@@ -7,14 +7,14 @@ from qdrant_client.http.models import Filter, FieldCondition, MatchValue
 
 import os
 import warnings
-from rag.load_models import setup_logger
+from load_models import setup_logger
 
 warnings.filterwarnings("ignore", message="Local mode is not recommended for collections with more than 20,000 points")
 warnings.filterwarnings("ignore", message="Collection .* contains .* points")
 
 
 class DocumentIndexer:
-    def __init__(self, config_path: str = "rag/config.yaml"):
+    def __init__(self, config_path: str = "config.yaml"):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         
@@ -102,7 +102,6 @@ class DocumentIndexer:
             except Exception:
                 pass
         
-        # Count by type
         type_counts = {}
         for doc in documents:
             doc_type = doc.get('doc_type', 'unknown')
@@ -154,7 +153,6 @@ class DocumentIndexer:
             info = self.client.get_collection(collection_name)
             count_result = self.client.count(collection_name)
             
-            # Get type breakdown
             type_counts = {}
             try:
                 scroll_result = self.client.scroll(

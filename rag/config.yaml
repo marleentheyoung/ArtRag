@@ -26,7 +26,7 @@ device: cpu
 embedding_device: cpu
 generator_device: cpu
 
-# embedding_device: mps  # Force 
-# generator_device: mps   # Force
+# embedding_device: cuda  # Force 
+generator_device: cpu   # Force
 
 torch_dtype: auto 
