@@ -102,7 +102,6 @@ class DataLoader:
         return None
     
     def _extract_metadata(self, doc_dict: Dict[str, Any], idx: int, doc_type: str, original_id: Any = None) -> Dict[str, Any]:
-        # Only exclude text and embeddings, but preserve all other metadata including ID
         excluded_fields = {'text', 'embeddings'}
         metadata = {
             'original_index': idx, 
@@ -112,7 +111,6 @@ class DataLoader:
         # Add the original ID as picture_id for artwork documents
         if original_id is not None:
             if doc_type == 'artwork':
-                # Clean up picture_id to stop at .jpg
                 picture_id = str(original_id)
                 if '.jpg' in picture_id:
                     picture_id = picture_id.split('.jpg')[0] + '.jpg'
@@ -151,7 +149,7 @@ class DataLoader:
         
         if documents:
             sample_metadata_keys = set()
-            for doc in documents[:5]:  # Check first 5 documents
+            for doc in documents[:5]:
                 if doc.get('metadata'):
                     sample_metadata_keys.update(doc['metadata'].keys())
             
@@ -184,9 +182,6 @@ class DataLoader:
 
     
     def get_document_by_picture_id(self, picture_id: str) -> Optional[Dict[str, Any]]:
-        """
-        Find a document by its picture_id (original ID for artworks)
-        """
         documents = self.load_data()
         for doc in documents:
             if doc.get('metadata', {}).get('picture_id') == picture_id:
@@ -194,9 +189,6 @@ class DataLoader:
         return None
     
     def get_all_picture_ids(self) -> List[str]:
-        """
-        Get all picture IDs from artwork documents
-        """
         documents = self.load_data()
         picture_ids = []
         for doc in documents:
