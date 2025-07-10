@@ -3,6 +3,8 @@ import yaml
 from typing import List, Dict, Any
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
+from qdrant_client.http.models import Filter, FieldCondition, MatchValue
+
 import os
 import warnings
 from rag.load_models import setup_logger
@@ -49,23 +51,25 @@ class DocumentIndexer:
     
     def _document_exists(self, content_hash: str) -> bool:
         collection_name = self.config['collection_name']
-        
+
         try:
-            results = self.client.scroll(
+            # Alternative approach using search with a dummy vector
+            # This is less efficient but might work better with different client versions
+            count_result = self.client.count(
                 collection_name=collection_name,
-                scroll_filter={
-                    "must": [
-                        {
-                            "key": "content_hash",
-                            "match": {"value": content_hash}
-                        }
+                count_filter=Filter(
+                    must=[
+                        FieldCondition(
+                            key='content_hash',
+                            match=MatchValue(value=content_hash)
+                        )
                     ]
-                },
-                limit=1
+                )
             )
-            return len(results[0]) > 0
+            return count_result.count > 0
         except Exception:
             return False
+
     
     def _prepare_embedding(self, document: Dict[str, Any]) -> np.ndarray:
         emb = document['embedding']

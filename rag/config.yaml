@@ -21,9 +21,12 @@ use_clustering: false
 n_clusters: 8
 top_clusters_for_query: 3
 
-device: auto  # Options: auto, cuda, mps, cpu
+# device: auto  # Options: auto, cuda, mps, cpu
+device: cpu
+embedding_device: cpu
+generator_device: cpu
 
-embedding_device: mps  # Force 
-generator_device: mps   # Force
+# embedding_device: mps  # Force 
+# generator_device: mps   # Force
 
 torch_dtype: auto 
