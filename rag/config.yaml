@@ -1,32 +1,43 @@
+# Safe configuration for M3 MacBook Pro - avoiding MPS memory issues
 embedding_model_name: "Qwen/Qwen3-Embedding-0.6B"
 generator_model_name: "Qwen/Qwen2.5-1.5B-Instruct"
 
-# ./data/dummy.pkl
+# Data paths
 artwork_dataset_path: ./data/real.pkl
 artist_dataset_path: ./data/real_artist.pkl
 
-
+# Vector database
 qdrant_path: ./qdrant_storage
 collection_name: artwork_collection
 local_files_only: true
 retrieval_top_k: 5
 
-max_generation_tokens: 250
+# Generation settings - optimized for stability
+max_generation_tokens: 150
 do_sample: true
-temperature: 0.7
-top_p: 0.9
-repetition_penalty: 1.2
+temperature: 0.3
+top_p: 0.8
+repetition_penalty: 1.1
 
-use_clustering: false
+# Clustering - enabled for better performance
+use_clustering: true
 n_clusters: 8
-top_clusters_for_query: 3
+top_clusters_for_query: 2
 
-# device: auto  # Options: auto, cuda, mps, cpu
-device: cpu
-embedding_device: cpu
-generator_device: cpu
+# Device configuration - MIXED setup for stability
+device: cpu                 # Fallback to CPU for stability
+embedding_device: cpu       # Embeddings on CPU (more stable)
+generator_device: cpu       # Generator on CPU (avoid MPS memory issues)
 
-# embedding_device: cuda  # Force 
-generator_device: cpu   # Force
+# Memory optimization - use float32 for compatibility
+torch_dtype: float32        # Use float32 for stability on CPU
 
-torch_dtype: auto 
+# Performance settings
+batch_size: 4               # Smaller batches for stability
+max_seq_length: 1024        # Reduce sequence length
+use_cache: true
+
+# Add these to your config for CPU optimization
+num_threads: 8              # Use multiple CPU cores
+enable_nested_tensor: false # Disable for compatibility
+torch_compile: false        # Disable torch.compile for now

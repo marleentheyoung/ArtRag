@@ -6,5 +6,6 @@ rag-art/qdrant_storage/
 __pycache__
 data/real.pkl
 data/real_artist.pkl
-interface_art_pipe.py
 qdrant_storage
+clustering_cache/
+.env
