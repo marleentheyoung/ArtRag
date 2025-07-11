@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "total_queries": 24,
+    "valid_responses": 22,
+    "matched_queries": 14,
+    "match_rate": 0.5833333333333334,
+    "validation_rate": 0.9166666666666666
+  },
+  "retrieval_metrics": {
+    "hit_rate@1": 0.5,
+    "precision@1": 0.5,
+    "hit_rate@3": 0.7142857142857143,
+    "precision@3": 0.4761904761904762,
+    "hit_rate@5": 0.7142857142857143,
+    "precision@5": 0.4714285714285715,
+    "hit_rate@10": 0.7142857142857143,
+    "precision@10": 0.4714285714285715,
+    "mrr": 0.5952380952380951
+  },
+  "generation_metrics": {
+    "exact_match": 0.21428571428571427,
+    "numerical_accuracy": 0.1636121553884712,
+    "fuzzy_match": 0.35903906407177655,
+    "contains_answer": 0.44583333333333336,
+    "semantic_similarity": 0.3540108363543238,
+    "rouge_1_f": 0.056786850330505345,
+    "rouge_l_f": 0.056786850330505345
+  },
+  "latency_stats": {
+    "total_time": {
+      "mean": 23.77347457408905,
+      "median": 23.279540181159973,
+      "std": 9.976882880891962,
+      "min": 8.98813009262085,
+      "max": 46.525634765625
+    },
+    "retrieval_time": {
+      "mean": 1.8745512637225064,
+      "median": 1.4467123746871948,
+      "std": 1.5111559254210083,
+      "min": 0.8368098735809326,
+      "max": 6.594856023788452
+    },
+    "generation_time": {
+      "mean": 21.898923310366545,
+      "median": 21.25253665447235,
+      "std": 9.495471112467724,
+      "min": 7.293195009231567,
+      "max": 44.899842739105225
+    }
+  },
+  "individual_results": [
+    {
+      "query": "How many exhibitions did Kandinsky have?",
+      "ground_truth": "57",
+      "response": "Based on the given text, Kandiwnsky had **13** exhibitions listed. These include:\n\n- Ausstellung aus dem Sonderbande Westdeutsche Kunstfreunden und Kuntsteller;\n- Neue Kuntmervereinigung München e.v.;\n- XXVII. Aussellung der Berlinischen Sektion;\n\nAdditionally, there were other exhibition appearances mentioned throughout various years such as 14th, 26th, etc., but these do not count toward total number of exhibitions shown here.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.22807017543859653,
+      "contains_answer": 0.0
+    },
+    {
+      "query": "In how many countries did van Gogh exhibit?",
+      "ground_truth": "7",
+      "response": "According to the given text, Vincent Willem van Goght Exhibited his works in **7 unique** countries. These include France, Belgium, Germany, Italy, Spain, Switzerland, and Austria.",
+      "exact_match": 1.0,
+      "numerical_accuracy": 1.0,
+      "contains_answer": 1.0
+    },
+    {
+      "query": "In how many exhibitions connected to Der Sturm did Hans Arp exhibit?",
+      "ground_truth": "4",
+      "response": "Hans Arp exhibited at 3 different exhibitions related to \"Der Sturm\" mentioned:\n\n1. Der Stürm. Ersten deutschen Herbstsaalon\n2. Der stürm.. Zweiten deutschen Herzbossaal \n3. Der steir. zwanzigte ausstellungsverzeichnis\n\nThese three exhibitions were part of his participation with various groups like the German Society of Young Painters (\"Neue Künstlerschaft\") and other art organizations during his career as an abstract expressionist painter.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.75,
+      "contains_answer": 0.0
+    },
+    {
+      "query": "In how many exhibitions did Ernst Barlach and Paul Baum exhibit together?",
+      "ground_truth": "3",
+      "response": "Based on the given data:\n\nErnst Barlack only had one exhibition listed as \"Einundzwansete Ausstellung\" which was held at the Berliner Sekesion (Berlin Section).\n\nPaul Baum also participated in multiple exhibitions but there is no mention of him exhibiting with Ernst Barlacl separately.\n\nTherefore, they never exhibited together according to this list of their individual exhibits.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.0
+    },
+    {
+      "query": "In which exhibition did Otto Gutfreund and Alexei Jawlensky exhibit together?",
+      "ground_truth": "Der Sturm. Neunzehnte Ausstellung. Expressionisten / Kubisten / Futuristen",
+      "response": "Otto Gutfreynd and Alexej Jawlenksy exhibited together at:\n\nDer Sturm - Neunzigste Ausstellungsveranstaltung\n\nThis was part of their collective exhibitions \"Expressionisten/Kubisten/Futuristen\" held under this name during various years between 17th to 27th November 107 respectively.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.125
+    },
+    {
+      "query": "Did Arne Kavli, Per Krohg, and Henrik Louis Lund exhibit together? If yes, what was the title of the exhibitions?",
+      "ground_truth": "Yes, in \"Hagenbund. Norwegische Künstler\"",
+      "response": "No, they did not exhibit together. However, all three artists mentioned were part of different exhibition groups:\n\n- **Kavli** participated in \"Internationale Kunstausschnitte des Sonders-bundes\" at Cologne's International Arts Exhibition (\"Sonderbund\").\n  \n- **Per Krohg**, who is also known as Peter Krogh, was included in several exhibits including \"Hagenbunds.\" The exact details on which particular show he appeared in aren't specified here but it likely refers to one among his other works like those shown under \"Norwegian National Gallery.\"\n\n- **Henrik Louis Lund** had an extensive career with multiple shows such as \"XI. Esposito d'arte,\" where he showcased his work alongside others like himself, indicating participation across various venues within Norway. This could include events related to contemporary art movements prevalent during his lifetime.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.2
+    },
+    {
+      "query": "How many artists exhibited in the exhibition Exhibition of the Camden Town Group and Others?",
+      "ground_truth": "16",
+      "response": "According to the given data, there were 5 unique exhibitions listed under \"Exhibition of the Cambridge Town Group\" (which includes Exhibitions of the Camber Town Group & others), but it does not specify how many individual artists participated in this particular event. Therefore, based on the available information alone, we cannot determine exactly how many artists specifically exhibited at the Exhibition of The Cambridge Town group including other works. However, if you're asking about total number of venues where these types of events took place across all exhibits mentioned, then the answer would be:\n\nThere is no direct countable figure as presented here without additional clarification regarding which subset of those mentions corresponds uniquely with an Exhibition of 'The Cambridge Town'. If looking only strictly within your list - excluding any further details like venue specifics beyond what's already been stated - I can't provide more than just stating they appear multiple times throughout various lists related to different groups/artists.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.3125,
+      "contains_answer": 0.0
+    },
+    {
+      "query": "Did Wilhelm Schmurr or Wilhelm Schocken exhibit in more cities?",
+      "ground_truth": "Wilhelm Schmurr",
+      "response": "Wilhelm Schocken exhibited in 2 unique cities compared to Wilhelm Schmürr's exhibition of 3 unique cities. Therefore, Wilhelm Schümmel exhibited in more unique cities than Wilhelm Schocke did.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.5
+    },
+    {
+      "query": "Did Hermann Münchhausen and William Bernard Adeney exhibit together? If yes, in which exhibitions?",
+      "ground_truth": "No",
+      "response": "No, there is no mention of Hermann Müntzhausen exhibiting with William Bernard Enady in any exhibition listed. Both were German artists who did not collaborate on works during their careers as documented in these exhibits.",
+      "exact_match": 1.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 1.0
+    },
+    {
+      "query": "Were David Bomberg and Edward Burne-Jones born in the same city? If yes, which one?",
+      "ground_truth": "Yes, in Birmingham",
+      "response": "Yes, both David Bomberg and Edward Burren Jones were born in Birmingham.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.6666666666666666
+    },
+    {
+      "query": "Is there an artist who was born in 1878 and died in 1966? If yes, who was it?",
+      "ground_truth": "Yes, William Bernard Adeney",
+      "response": "Yes, there is such an artist. The one you're referring to is **Hans Arp** (born 10/06/1890 - died 15/05/1984), whose birth year matches your criteria of being born in '18' followed by seven digits ('18'), but his death date does not match exactly with '19'. However, if we consider only those born before 1st January 1700 as per common historical records, then no other known German-born artist fits this description perfectly within these constraints. Therefore, based on standard biographical data available up until recent times, Hans Arp stands out as potentially matching some aspects given the close approximation without exact alignment due to differences between calendar systems used at different periods historically.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.25
+    },
+    {
+      "query": "Did Georg Vilhelm Pauli and Max Pechstein have the same nationality?",
+      "ground_truth": "No",
+      "response": "No, they did not share the same nationalities. \n\nGeorg Vilhelm (Pauli) was born in Jönköpings County, Sweden on January 25, 1789, and died there on December 23, 2001. He is Swedish but also worked as an art dealer based in London during his career.\n\nMax Pechtein was born on February 1, 88, in Zwickauer Strasse, Germany, and passed away at age 73 in Berlin, Germany on June 15, of the same year. His German heritage can be seen through both his birthplace and death place within Germany's borders.",
+      "exact_match": 1.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 1.0
+    },
+    {
+      "query": "Who was born earlier, Christian Rohlfs or Auguste Rodin?",
+      "ground_truth": "Auguste Rodin",
+      "response": "Auguste Roden was born first, as indicated by the birth year given under each individual's details. Specifically:\n\nChristian Rohlffs was born in Ⅰ84ⅹ, Neidorf, Germany,\nwhile Auguste Roeder was born Ⅱ84₀, Paris, France.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 0.5
+    },
+    {
+      "query": "Who got older, Joseph Stella or John Sten?",
+      "ground_truth": "Joseph Stella",
+      "response": "Joseph Stella was born earlier than John Stens with an age difference of approximately 4 years (Stella's birth year is given as 15/02/1897 while Stens was born on 17/09/1900). Therefore, Joseph Stewart grew up slightly later compared to his counterpart.",
+      "exact_match": 0.0,
+      "numerical_accuracy": 0.0,
+      "contains_answer": 1.0
+    }
+  ]
+}
