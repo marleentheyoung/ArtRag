@@ -5,3 +5,9 @@ sentence-transformers
 transformers
 qdrant_client
 watchdog
+# Evaluation packages
+rouge-score>=0.1.2
+nltk>=3.8
+bert-score>=0.3.13
+sacrebleu>=2.3.0
+numpy>=1.24.0
