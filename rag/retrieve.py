@@ -44,22 +44,37 @@ class DocumentRetriever:
                     FieldCondition(key="doc_type", match=MatchValue(value=doc_type))
                     for doc_type in doc_types
                 ]
-                conditions.append({"should": type_conditions})
+                # Fix: Use Filter(should=...) instead of creating a dict
+                conditions.append(Filter(should=type_conditions))
         
         if cluster_doc_ids:
             cluster_conditions = [
                 FieldCondition(key="doc_id", match=MatchValue(value=doc_id))
                 for doc_id in cluster_doc_ids
             ]
-            conditions.append({"should": cluster_conditions})
+            # Fix: Use Filter(should=...) instead of creating a dict
+            conditions.append(Filter(should=cluster_conditions))
         
         if not conditions:
             return None
         
         if len(conditions) == 1:
-            return Filter(must=[conditions[0]]) if isinstance(conditions[0], dict) and "should" not in conditions[0] else Filter(**conditions[0])
+            # Fix: Handle both FieldCondition and Filter objects properly
+            if isinstance(conditions[0], FieldCondition):
+                return Filter(must=[conditions[0]])
+            else:  # It's already a Filter object
+                return conditions[0]
         else:
-            return Filter(must=conditions)
+            # Fix: Handle mixed types in conditions
+            must_conditions = []
+            for condition in conditions:
+                if isinstance(condition, FieldCondition):
+                    must_conditions.append(condition)
+                else:  # It's a Filter object, we need to combine them properly
+                    # This case is more complex - you may need to restructure based on your specific needs
+                    # For now, let's assume we want to AND all conditions
+                    must_conditions.append(condition)
+            return Filter(must=must_conditions)
     
     def _extract_document_info(self, result) -> Dict[str, Any]:
         doc = {
