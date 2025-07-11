@@ -1,11 +1,11 @@
 import yaml
 from typing import List, Dict, Any
 import torch
-from load_models import setup_logger
+from rag.load_models import setup_logger
 
 
 class ResponseGenerator:
-    def __init__(self, config_path: str = "config.yaml", tokenizer=None, model=None):
+    def __init__(self, config_path: str = "rag/config.yaml", tokenizer=None, model=None):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
         

@@ -3,7 +3,7 @@ import yaml
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
-from load_models import setup_logger
+from rag.load_models import setup_logger
 
 
 class DocumentRetriever:

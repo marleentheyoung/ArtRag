@@ -9,12 +9,12 @@ from typing import Tuple, Dict, List, Any, Optional, Callable
 
 os.environ['TRANSFORMERS_VERBOSITY'] = 'error'
 
-from data_loader import DataLoader
-from index import DocumentIndexer
-from retrieve import DocumentRetriever
-from generate import ResponseGenerator
-from clustering import DocumentClusterer
-from load_models import ModelLoader, setup_logger
+from rag.data_loader import DataLoader
+from rag.index import DocumentIndexer
+from rag.retrieve import DocumentRetriever
+from rag.generate import ResponseGenerator
+from rag.clustering import DocumentClusterer
+from rag.load_models import ModelLoader, setup_logger
 
 
 @contextmanager
@@ -58,7 +58,7 @@ class QueryHandler:
 
 
 class RAGPipeline:
-    def __init__(self, config_path: str = "config.yaml"):
+    def __init__(self, config_path: str = "rag/config.yaml"):
         self.config_path = config_path
         self.logger = setup_logger("RAGPipeline")
 
